@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .gray {
   color: #777777;
+  font-size: 30px;
 }
 .green {
   color: #4dba87;
@@ -45,11 +46,11 @@ h1, h2, h3, h4, h5, h6, p {
 section {
   padding: 5rem 5rem;
 }
-button {
+.button{
   border: none;
   border-radius: 0.2rem;
   padding: 0.5rem 1rem;
-  color: #2D2E32;
+  color: #FFFFFF;
   font-size: 0.8rem;
   font-weight: 600;
   background-color: #4dba87;
@@ -154,6 +155,32 @@ footer span {
 footer ul li {
   list-style-type: none;
   margin-left: 1rem;
+}
+
+.skills{
+ 
+  width: 50%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  margin: auto;
+}
+.skillcard{
+  
+  width: 200px;
+  height: 270px;
+}
+.skillcard>img{
+  width: 160px;
+  height: 210px;
+  margin: auto;
+}
+.skillcard>h3{
+  margin-bottom: 10px;
+  
+  text-align: center;
 }
 
 /* --------- Responsive Design --------- */

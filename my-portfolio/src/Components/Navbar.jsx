@@ -5,6 +5,7 @@ import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import  {AiOutlineHeart}  from 'react-icons/ai'
 import  {RiAdminFill}  from 'react-icons/ri'
 import  {BsHandbag}  from 'react-icons/bs'
+import { Skills } from "../Pages/Skills";
 
 
 
@@ -23,11 +24,13 @@ export default function Navbar(){
             <ul className="flex white">
                 
                 <li>
-                    <Link href="/#about">About</Link>
+                    <Link href="#about">About</Link>
                 </li>
+            
                 <li>
                     <Link href="/#skills">Skills</Link>
                 </li>
+                
                 <li>
                     <Link href="/#projects">Projects</Link>
                 </li>
