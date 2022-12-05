@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Dancing+Script&family=Poppins:ital,wght@1,700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Orbitron&display=swap');
+
+
+.disc{
+    color:white;
+    text-align: justify;
+    word-spacing: 0.5ch;
+    color: #5ddcff;
+
+}
+.aboutebox{
+    width: 90%;
+    margin-top: 30px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+
+}
+.aboutevideo{
+    position: absolute;
+    z-index: -1;
+    top:100vh;
+    left: 0;
+    width: 100%;
+    height: 100%;
+      object-fit: cover;
+ }
+
+.aboutebox>h1{
+    font-size: 40px;
+    color: white;
+    font-family:'Marck Script', cursive;
+    animation :aboute 2s linear infinite;
+   
+}
+@keyframes aboute {
+    0%{
+           text-shadow: 0 0  40px #5ddcff,
+           0 0  40px  #5ddcff,
+            0 0  40px #5ddcff,
+            0 0  40px #5ddcff
+
+    }
+    50%{
+      text-shadow: 0 0  10px #5ddcff,
+      0 0  5px #5ddcff,
+       0 0  5px #5ddcff,
+       0 0  5px #5ddcff
+    }
+    100%{
+      text-shadow: 0 0  40px #5ddcff,
+      0 0  40px  #5ddcff,
+       0 0  40px #5ddcff,
+       0 0  40px #5ddcff
+    }
+    
+  }
+.box{
+    margin: auto;
+  
+   
+    width: 45rem;
+    border:3px solid orange;
+    border-radius: 10px;
+   
+    padding:30px 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+   
+    
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 #5ddcff; ;     animation-name: moveleft;
+    animation-duration: 0.7s;
+    margin-top: 25px;
+}
+@keyframes moveleft {
+    0%{
+        transform: translateX(1500px);
+    }
+    100%{
+        transform: translate(0);
+    }
+    
+}
+.fake{
+    border: none;
+    width: 200px;
+    height:5rem;
+    margin: auto;
+}
+
+ @media only screen and (max-width: 1200px) {
+    .aboutebox{
+     width: 60rem;
+     height: fit-content;
+     padding: 0.5rem;
+     margin: auto;
+    }
+    .aboutebox>h1{
+     font-size: 2rem;
+ }
+    .box{
+     width:80%;
+     height:fit-content;
+     font-size:1rem;
+    }
+ }
+
+
+ @media only screen and (max-width: 600px) {
+   .aboutebox{
+    width: 40rem;
+    height: fit-content;
+    padding: 0.5rem;
+    margin: auto;
+   }
+   .aboutebox>h1{
+    font-size: 2rem;
+}
+   .box{
+    width:80%;
+    height:fit-content;
+    font-size:1rem;
+   }
+}
+
+
+@media only screen and (max-width: 413px) {
+    .aboutebox{
+        width: 20rem;
+        height: fit-content;
+        padding: 0.5rem;
+        margin: auto;
+       }
+       .aboutebox>h1{
+        font-size: 50px;
+    }
+       .box{
+        width:80%;
+        height:fit-content;
+        font-size:1rem;
+       }
+       .disc {
+        font-size: 1rem;
+    }
+    
+  }

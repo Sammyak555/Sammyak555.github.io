@@ -1,0 +1,449 @@
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 160deg;
+    inherits: false;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Orbitron&display=swap');
+
+
+  .fakebox{
+    width: 100px ;
+    height: 3rem;
+    /* border: 1px solid green; */
+  }
+
+  .projectvideo{
+    position: absolute;
+    z-index: -1;
+    top:200vh;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+      object-fit: cover;
+ }
+
+.projectsbox{
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 150px;
+    /* border: 1px solid red; */
+    
+   text-align: center;
+   
+}
+.projectsgridbox{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+  
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:2rem;
+    padding:1rem 1rem
+}
+.projectsbox>h1{
+  font-size: 40px;
+  color: white;
+  font-family:'Marck Script', cursive;
+  animation :aboute 2s linear infinite;
+ 
+}
+@keyframes aboute {
+  0%{
+         text-shadow: 0 0  40px #5ddcff,
+         0 0  40px  #5ddcff,
+          0 0  40px #5ddcff,
+          0 0  40px #5ddcff
+
+  }
+  50%{
+    text-shadow: 0 0  10px #5ddcff,
+    0 0  5px #5ddcff,
+     0 0  5px #5ddcff,
+     0 0  5px #5ddcff
+  }
+  100%{
+    text-shadow: 0 0  40px #5ddcff,
+    0 0  40px  #5ddcff,
+     0 0  40px #5ddcff,
+     0 0  40px #5ddcff
+  }
+  
+}
+
+.projectcard{
+    content: "";
+    padding: 0.1rem 0.1rem;
+  height:23rem;
+ 
+    border-radius: 8px;
+    
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff,transparent  43%,transparent );
+     
+      animation: spinback 2.5s linear infinite;
+     
+
+
+}
+@keyframes spinback {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+
+.pdetails{
+    width: 99%;
+    height:99%;
+ 
+    background-image:linear-gradient(black,#0a0221);
+}
+
+/*******links*********/
+.slides{
+  margin: auto;
+  width: 95%;
+  height:50%;
+}
+.details{
+  width: 95%;
+  margin: auto;
+  height: 50%;
+  border:1px solid #5ddcff;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding:0.2rem 0.5rem;
+  background-image:linear-gradient(to right bottom ,black  30%,#0a0221  );
+  
+  ;
+}
+.title{
+  width: 90%;
+
+  color: #5ddcff;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.tool{
+  width: 90%;
+
+  color: #5ddcff;
+  font-size: 0.7rem;
+  text-align: left;
+ 
+  justify-content: center;
+}
+.features{
+  width: 90%;
+  height:fit-content;
+  color: #5ddcff;
+  font-size: 0.6rem;
+  text-align: left;
+  line-height:15px;
+ 
+}
+.features>div{
+  display: grid;
+  height: fit-content;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+}
+.links{
+  width: 90%;
+  height:10% ;
+  margin-top: 0.05rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links>a>button{
+  background-color: transparent;
+  border: 2px solid #5ddcff;
+  color: #5ddcff;
+  border-radius: 7px ;
+}
+.links>a>button:hover{
+ box-shadow: 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff;
+ text-shadow:0 0 5px #5ddcff,
+ 0 0 20px #5ddcff,
+ 0 0 20px #5ddcff,
+ 0 0 20px #5ddcff,
+ 0 0 20px #5ddcff; ;
+}
+.slides>div{
+ width: 99%;
+ height:95%;
+ overflow: hidden;
+}
+.slides>div>img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .projectsbox{
+    width: 60rem;
+    height: fit-content;
+  }
+  .projectsgridbox{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    /* border: 1px solid red; */
+  
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:2rem;
+    padding:1rem 1rem
+}
+.projectcard{
+  width: 98%;
+  height: 16rem;
+  display: flex;
+  padding: 0.05rem 0.05rem;
+  /* border:1px solid yellow */
+}
+.pdetails{
+  width: 99%;
+  margin: auto;
+  height:99%;
+  display: flex;
+  /* border:1px solid blue */
+}
+.slides{
+  width: 45%;
+  height: 98%;
+  /* border:1px solid pink */
+}
+.slide>div{
+  width: 100%;
+  height: 100%;
+}
+.details{
+  width: 55%;
+  height: 98%;
+  /* border:1px solid blueviolet; */
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding:0.8rem 0.8rem
+  
+  ;
+}
+.title{
+  width: 90%;
+
+  color: #5ddcff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.tool{
+  width: 90%;
+
+  color: #5ddcff;
+  font-size: 0.8rem;
+  text-align: left;
+ 
+  justify-content: center;
+}
+.features{
+  width: 90%;
+  height:fit-content;
+  color: #5ddcff;
+  font-size: 0.7rem;
+  text-align: left;
+  line-height:15px;
+  justify-content: center;
+}
+.links{
+  width: 90%;
+  height:10% ;
+  margin-top: 0.05rem;
+}
+.links>button{
+  background-color: transparent;
+  /* border: 2px solid #5ddcff; */
+  color: #5ddcff;
+}
+.links>button:hover{
+ box-shadow: 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff;
+ text-shadow:0 0 5px #5ddcff,
+ 0 0 20px #5ddcff,
+ 0 0 20px #5ddcff,
+ 0 0 20px #5ddcff,
+ 0 0 20px #5ddcff; ;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .projectsbox{
+    width: 40rem;
+    height: fit-content;
+  }
+  .projectsgridbox{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    /* border: 1px solid red; */
+  
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:2rem;
+    padding:1rem 1rem
+}
+.projectcard{
+  width: 98%;
+  height: 27rem;
+  display: flex;
+  padding: 0.05rem 0.05rem;
+  /* border:1px solid yellow */
+}
+.pdetails{
+  width: 99%;
+  margin: auto;
+  height:99%;
+ display: block;
+  /* border:1px solid blue */
+}
+.slides{
+  width: 95%;
+  margin: auto;
+  height: 50%;
+  /* border:1px solid pink */
+}
+.details{
+  width: 95%;
+  height: 50%;
+  /* border:1px solid blueviolet; */
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding:0.8rem 0.8rem
+  
+  ;
+}
+.title{
+  width: 90%;
+
+  color: #5ddcff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.tool{
+  width: 90%;
+
+  color: #5ddcff;
+  font-size: 0.8rem;
+  text-align: left;
+ 
+  justify-content: center;
+}
+.features{
+  width: 90%;
+  height:fit-content;
+  color: #5ddcff;
+  font-size: 0.7rem;
+  text-align: left;
+  line-height:15px;
+  justify-content: center;
+}
+.links{
+  width: 90%;
+  height:10% ;
+  margin-top: 0.05rem;
+}
+.links>button{
+  background-color: transparent;
+  border: 2px solid #5ddcff;
+  color: #5ddcff;
+}
+.links>button:hover{
+ box-shadow: 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff,
+ 0 0 5px #5ddcff;
+ text-shadow:0 0 5px #5ddcff,
+ 0 0 20px #5ddcff,
+ 0 0 20px #5ddcff,
+ 0 0 20px #5ddcff,
+ 0 0 20px #5ddcff; ;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 413px) {
+  .projectsbox{
+    width: 20rem;
+   
+    height: auto;
+  }
+ .projectsgridbox{
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+  
+    display: flex;
+     flex-direction: column;
+    grid-gap:2rem;
+   
+}
+
+.projectsgridbox>div{
+  width: 98%;
+  height: fit-content;
+  font-size: 0.8rem;
+}
+.contactinput{
+  width: 90%;
+  font-size: 10px;
+  height: fit-content;
+  padding: 0.5rem 0.5rem;
+}
+
+}
