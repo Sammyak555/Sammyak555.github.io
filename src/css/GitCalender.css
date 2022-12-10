@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Orbitron&display=swap');
+
+
+
+
+.calendor{
+    width: 90%;
+    margin: auto;
+
+   padding: 2rem 2rem;
+}
+
+.calendorbox{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+    padding: 10px 10px;
+   animation-name: moveright;
+   animation-duration: 1s;
+   line-height: normal;
+   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+   background-image:linear-gradient(to right bottom ,black  30%,#0a0221  );
+
+   /* -webkit-backdrop-filter: blur(10px);
+   border-radius: 20px;
+   /* border:1px solid rgba(255, 255, 255, 0.18); */
+   box-shadow: 0 8px 32px 0 #5ddcff; ; 
+   padding: 2rem 2rem;
+   border: 1px solie red;
+}
+.calheading{
+    font-size: 40px;
+    width: fit-content;
+    margin: auto;
+    font-family:'Marck Script', cursive;
+    color: white;
+    animation :skills 2s linear infinite;
+}
+
+@keyframes skills {
+    0%{
+           text-shadow: 0 0  40px #64dd17,
+           0 0  40px  #64dd17,
+            0 0  40px #64dd17,
+            0 0  40px #64dd17
+
+    }
+    50%{
+      text-shadow: 0 0  10px #64dd17,
+      0 0  5px #64dd17,
+       0 0  5px #64dd17,
+       0 0  5px #64dd17
+    }
+    100%{
+      text-shadow: 0 0  40px #64dd17,
+      0 0  40px  #64dd17,
+       0 0  40px #64dd17,
+       0 0  40px #64dd17
+    }
+    
+  }
+  
+ @media only screen and (max-width: 1200px) {
+    .calendore{
+     width: 50rem;
+     height: fit-content;
+     padding: 0.5rem;
+     margin: auto;
+    }
+    .calendor>h1{
+     font-size: 2rem;
+ }
+    .calendorbox{
+     width:80%;
+     height:fit-content;
+     font-size:1rem;
+    }
+ }

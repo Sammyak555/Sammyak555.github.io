@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Dancing+Script&family=Poppins:ital,wght@1,700&display=swap');
+
+
+.navbarbox{
+    border-radius:7px;
+    width: 95%;
+   left:25px;
+    height:45px;
+   display: flex;
+   align-items: center;
+    margin: auto;
+    
+  
+    position: fixed;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.menu{
+  text-align: center;
+  border-radius: 15px;
+}
+.menu>a{
+  color:blue;
+  text-decoration: none;
+  text-align: center;
+}
+.menuItem{
+  width: 98%;
+  margin: auto;
+  text-decoration: none;
+  background-color:#03bcf4;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  align-content: center;
+  padding: 15px 5px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.menuItem>p{
+  margin-left: 70px;
+  padding: 5px 0;
+  font-size:20px ;
+  margin-top: 15px;
+  color: white;
+}
+
+.css-1l1kldz{
+ height:400px;
+}
+.css-1l1kldz{
+ background-color: green;
+ height: 50px;
+ text-align: center;
+}
+.menubutton{
+  display: none;
+ 
+  /* visibility: hidden; */
+ }
+.active {
+    text-decoration: none;
+    color: #ff8f00;
+  }
+  .default{
+    text-decoration: none;
+    color: white;
+  }
+  .navlink{
+    width: 60%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+  }
+  .link{
+    transition: 0.2s;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+  }
+
+  .link:hover{
+    text-shadow: 0 0 10px #ba68c8,
+    0 0 20px #ba68c8,
+    0 0 20px #ba68c8,
+    0 0 20px #ba68c8,
+    0 0 20px #ba68c8;
+
+    transform: scale(1.1);
+  }
+
+  .logo{
+    font-family: 'Cinzel Decorative', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    color: white;
+    margin-left: 30px;
+  animation :falsh 2s linear infinite;
+  }
+  @keyframes falsh {
+    0%{
+           text-shadow: 0 0  40px #03bcf4,
+           0 0  40px  #03bcf4,
+            0 0  40px #03bcf4,
+            0 0  40px #03bcf4
+
+    }
+    50%{
+      text-shadow: 0 0  10px #03bcf4,
+      0 0  5px #03bcf4,
+       0 0  5px #03bcf4,
+       0 0  5px #03bcf4
+    }
+    100%{
+      text-shadow: 0 0  40px #03bcf4,
+      0 0  40px  #03bcf4,
+       0 0  40px #03bcf4,
+       0 0  40px #03bcf4
+    }
+    
+  }
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1200px) {
+
+
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navbarbox{
+      width: 95%;
+      height: 4rem;
+    }
+
+    .menubutton{
+   display: contents;
+   height: 95%;
+   width: 2rem;
+   border: 1px solid red;
+     
+    
+     }
+     
+     .active{
+      display: none;
+     }
+     .menuItem:hover{
+      text-decoration: none;
+      
+      box-shadow: 0 0  10px #03bcf4,
+      0 0  5px #03bcf4,
+       0 0  5px #03bcf4,
+       0 0  5px #03bcf4
+    
+  }
+}
+
+
+
+
+@media only screen and (max-width: 413px) {
+
+  .navbarbox{
+    width: 22rem;
+    height: 3rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .menubutton{
+ display: contents;
+ height: 95%;
+ width: 2rem;
+ border: 1px solid red;
+   
+  
+   }
+   .menu{
+    width: 250px;
+   }
+   .css-1tq2qea{
+    width: 240px;
+   }
+   
+   .active{
+    display: none;
+   }
+   .menuItem:hover{
+    text-decoration: none;
+    
+    box-shadow: 0 0  10px #03bcf4,
+    0 0  5px #03bcf4,
+     0 0  5px #03bcf4,
+     0 0  5px #03bcf4
+  
+}
+
+
+}

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Orbitron&display=swap');
+
+
+
+.contact{
+    width: 90%;
+    height:100rem;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    height: auto;
+    
+    margin-top: auto;
+    text-align: center;
+}
+.contact>h1{
+    font-size: 40px;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    text-align: left;
+    font-family:'Marck Script', cursive;
+    animation : skills 2s linear infinite;
+  
+}
+
+@keyframes contact {
+    0%{
+           text-shadow: 0 0  40px#5ddcff
+           0 0  40px #5ddcff
+            0 0  40px#5ddcff
+            0 0  40px #5ddcff,
+
+    }
+    50%{
+      text-shadow: 0 0  10px#5ddcff
+      0 0  5px#5ddcff
+       0 0  5px#5ddcff
+       0 0  5px #5ddcff,
+    }
+    100%{
+      text-shadow: 0 0  40px#5ddcff
+      0 0  40px #5ddcff
+       0 0  40px#5ddcff
+       0 0  40px #5ddcff,
+    }
+    
+  }
+.contactbox{
+    width: 95%;
+    height: 80vh;
+    margin: auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactdetails{
+    width: 47%;
+    height:fit-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.9rem 1rem;
+    box-shadow: 0 8px 32px 0 #5ddcff; ;     animation-name: moveleft;
+
+    /* border: 2px solid green; */
+    background-image:linear-gradient(to right bottom ,black  ,#0a0221  );
+
+}
+.contactdetails>div{
+    width: 90%;
+    margin: auto;
+  height:fit-content;
+    /* border:2px solid green; */
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+   
+   
+}
+.contactdetails>div>div{
+    margin-left: 20px;
+    text-align: left;
+}
+.contactdetails>div:last-child{
+ align-items: center;
+}
+
+.contactdetails>div>a>button{
+    height: 60%;
+    background-color: transparent;
+    border: 2px solid #5ddcff;
+    color: #5ddcff;
+    border-radius: 7px ;
+  }
+  .links>a>button:hover{
+   box-shadow: 0 0 5px #5ddcff,
+   0 0 5px #5ddcff,
+   0 0 5px #5ddcff,
+   0 0 5px #5ddcff,
+   0 0 5px #5ddcff;
+   text-shadow:0 0 5px #5ddcff,
+   0 0 20px #5ddcff,
+   0 0 20px #5ddcff,
+   0 0 20px #5ddcff,
+   0 0 20px #5ddcff; ;
+  }
+
+
+
+/* .contactdetails>div:last-child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+/* .contactdetails>div>div{
+    width: 6rem;
+    height: 2rem;
+    padding:0.2rem 0.2rem;
+    border: 2px solid  #5ddcff;
+} */
+.contactdetails>div>div>a>img{
+    width: 100%;
+    height: 90%;
+}
+.contactdetails>div>div>a>img:hover{
+    transform: scale(1.4);
+}
+
+
+.contactinput{
+    width: 45%;
+    height:fit-content;
+    border-radius: 20px;
+    display: flex;
+    color: #5ddcff;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 8px 32px 0 #5ddcff; 
+    padding: 0.8rem 0.8rem;     
+    animation-name: moveleft;
+
+    /* border: 2px solid green; */
+    background-image:linear-gradient(to right bottom ,black  ,#0a0221  );
+}
+.contactinput>h1{
+    font-size: 1.5rem;
+}
+.subbtn{
+    height: 60%;
+    background-color: transparent;
+    border: 2px solid #5ddcff;
+    color: #5ddcff;
+    border-radius: 7px ;
+    margin: auto;
+    margin-top: 0.5rem;
+  }
+  .subbtn:hover{
+   box-shadow: 0 0 5px #5ddcff,
+   0 0 5px #5ddcff,
+   0 0 5px #5ddcff,
+   0 0 5px #5ddcff,
+   0 0 5px #5ddcff;
+   text-shadow:0 0 5px #5ddcff,
+   0 0 20px #5ddcff,
+   0 0 20px #5ddcff,
+   0 0 20px #5ddcff,
+   0 0 20px #5ddcff; ;
+  }
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1200px) {
+    .contact{
+        width: 60rem;
+    height: fit-content;
+       
+    }
+    .contactbox{
+        width: 95%;
+        margin: auto;
+        
+        height: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contact{
+      width: 40rem;
+      height: fit-content;
+    }
+    .contactbox{
+      width: 80%;
+      height: fit-content;
+      margin: auto;
+    
+      display: flex;
+       flex-direction: column;
+      grid-gap:2rem;
+      padding:1rem 1rem
+  }
+  .contactbox>div{
+    width: 90%;
+  }
+
+  }
+
+
+
+
+
+  
+  @media only screen and (max-width: 413px) {
+    .contact{
+      width: 20rem;
+     
+      height: auto;
+    }
+    .contactbox{
+      width: 80%;
+      height: fit-content;
+      margin: auto;
+    
+      display: flex;
+       flex-direction: column;
+      grid-gap:2rem;
+     
+  }
+  .contactdetails{
+    width: 90%;
+    font-size: 10px;
+    height: fit-content;
+    padding: 0.5rem 0.5rem;
+  }
+  .contactdetails>div{
+    width: 98%;
+    font-size: 0.8rem;
+  }
+  .contactinput{
+    width: 90%;
+    font-size: 10px;
+    height: fit-content;
+    padding: 0.5rem 0.5rem;
+  }
+
+  }

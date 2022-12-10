@@ -11,7 +11,9 @@
 
 }
 .aboutebox{
-    width: 90%;
+    background-image: 
+  url("https://i.pinimg.com/originals/da/96/22/da96228c593d53a3f932c339f5c28b21.gif");
+    width: 100%;
     margin-top: 30px;
     height: auto;
     margin: auto;

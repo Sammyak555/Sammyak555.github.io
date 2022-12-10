@@ -2,8 +2,9 @@ import "../css/About.css"
 // import background from "../download/background.mov"
 
 export const About=()=>{
+ 
     return(
-        <div>
+        <div >
             <div className="aboutebox" id='aboutme'>
       {/* <video   className="aboutevideo" src={background} autoPlay loop muted/> */}
       <div className="fake"></div>
@@ -15,5 +16,6 @@ export const About=()=>{
     </div>
     </div>
         </div>
-    )
+    );
+    
 }
