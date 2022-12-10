@@ -8,6 +8,7 @@ import { About } from './Pages/About';
 import { Projects } from './Pages/Projects';
 import Contact from './Pages/Contact';
 import Calendor from './Pages/GitCalender';
+import Statistics from './Pages/Statistics';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
      <Skills/>
      </div>
      {/* <Calendor/> */}
+     <Statistics />
      <Contact/>
     </div>
   );

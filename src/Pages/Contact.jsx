@@ -43,11 +43,11 @@ function Contact() {
         <div className='contactdetails'>
         <div className='tool'>
          
-        <FiPhone/> <div><span fontWeight="bold">Mob No </span><span>:-8668696097</span></div>
+        <FiPhone/> <div><span fontWeight="bold">Mob No </span><span>:-9503803512</span></div>
         </div>
         <div className='tool'>
      
-         <FiMail/><div><span >Email id </span><span>:-akashkanade235@gmail.com</span></div>
+         <FiMail/><div><span >Email id </span><span>:-sammyak.deosale.1@gmail.com</span></div>
         </div>
        
        <div className='tool'>
@@ -59,7 +59,7 @@ function Contact() {
      <BsCursorFill/><div><span >Linked In :- </span><a href="https://www.linkedin.com/in/akash-kanade-59ab8218b"><span>akashkanade</span></a></div>
     </div>
     <div>
-    <a className="btns" href='https://github.com/akashkanade9182/akashkanade9182.github.io/raw/main/src/download/Akash-Kanade-Resume.pdf' download><button className="btns">
+    <a className="btns" href='https://github.com/Sammyak555/Sammyak555.github.io/raw/main/src/download/Akash-Kanade-Resume.pdf' download><button className="btns">
       Download CV
       </button>
     </a>

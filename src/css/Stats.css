@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Orbitron&display=swap');
+
+
+
+
+
+
+.statistics{
+    width: 90%;
+    margin: auto;
+ height: auto;
+   padding: 2rem 2rem;
+}
+.statisticsbox{
+    width: 98%;
+    margin: auto;
+    align-items: center;
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+   
+   animation-name: moveright;
+   animation-duration: 1s;
+   line-height: normal;
+   background-image:linear-gradient(to right bottom ,black  30%,#0a0221  );
+
+   /* -webkit-backdrop-filter: blur(10px);
+   border-radius: 20px;
+   /* border:1px solid rgba(255, 255, 255, 0.18); */
+   box-shadow: 0 8px 32px 0 #5ddcff; ;
+   padding: 1rem 1rem;
+ 
+   border: 1px solie red;
+}
+.statisticsbox>div{
+  margin: auto;
+  margin-top: 50px;
+  width: 95%;
+  border: 20px solid transparent;
+}
+.statisticsbox>div:last-child{
+  margin-top: 5rem;
+}
+.state2{
+  width: 90%;
+  margin-top: 5rem;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.stateheading{
+    font-size: 40px;
+    width: fit-content;
+    margin: auto;
+    font-family:'Marck Script', cursive;
+    color: white;
+    animation :skills 2s linear infinite;
+}
+
+@keyframes skills {
+    0%{
+           text-shadow: 0 0  40px #64dd17,
+           0 0  40px  #64dd17,
+            0 0  40px #64dd17,
+            0 0  40px #64dd17
+
+    }
+    50%{
+      text-shadow: 0 0  10px #64dd17,
+      0 0  5px #64dd17,
+       0 0  5px #64dd17,
+       0 0  5px #64dd17
+    }
+    100%{
+      text-shadow: 0 0  40px #64dd17,
+      0 0  40px  #64dd17,
+       0 0  40px #64dd17,
+       0 0  40px #64dd17
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+  
+@media only screen and (max-width: 600px){
+  .statisticsbox{
+    display: flex;
+    flex-direction: column;
+  }
+
+.statisticsbox>div{
+  margin: auto;
+  margin-top: 50px;
+  width: 95%;
+  border: 20px solid transparent;
+}
+.statisticsbox>div:last-child{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.state2{
+  width: 90%;
+  margin-top: 5rem;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.state2>a:last-child{
+ margin-top: 2rem;
+}
+.stateheading{
+  font-size: 2rem;
+   
+}
+
+}
