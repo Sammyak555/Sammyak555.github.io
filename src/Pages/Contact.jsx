@@ -56,10 +56,10 @@ function Contact() {
        </div>
        <div className='tool'>
      
-     <BsCursorFill/><div><span >Linked In :- </span><a href="https://www.linkedin.com/in/akash-kanade-59ab8218b"><span>akashkanade</span></a></div>
+     <BsCursorFill/><div><span >Linked In :- </span><a href="https://www.linkedin.com/in/akash-kanade-59ab8218b"><span>Sammyak Deosale</span></a></div>
     </div>
     <div>
-    <a className="btns" href='https://github.com/Sammyak555/Sammyak555.github.io/raw/main/src/download/Akash-Kanade-Resume.pdf' download><button className="btns">
+    <a className="btns" href='../Resume/Sammyak_MERN_Resume1.pdf' download><button className="btns">
       Download CV
       </button>
     </a>
