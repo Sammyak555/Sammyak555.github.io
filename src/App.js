@@ -7,6 +7,7 @@ import { AllRoutes } from './Components/AllRoutes';
 import { About } from './Pages/About';
 import { Projects } from './Pages/Projects';
 import Contact from './Pages/Contact';
+import Calendor from './Pages/GitCalender';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
      <a id='skills'></a>
      <Skills/>
      </div>
+     {/* <Calendor/> */}
      <Contact/>
     </div>
   );
