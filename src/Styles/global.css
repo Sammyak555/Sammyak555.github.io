@@ -6,9 +6,7 @@ body {
   margin: 0;
   font-family: 'Roboto Mono';
 }
-* {
-  box-sizing: border-box;
-}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -17,16 +15,31 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 .dark-bg {
-  background-color: #25262A;
+  background-image: 
+  url("https://i.stack.imgur.com/9WYxT.png");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/* https://miro.medium.com/max/1400/1*nyU2IcNL3TVxZ_GPkkmt2g.png */
+
 .light-bg {
-  background-color: #2D2E32;
+  background-image: 
+  url("https://i.stack.imgur.com/9WYxT.png");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* back */
 }
 .white {
   color: #FFFFFF;
 }
 .gray {
-  color: #777777;
+  color: #959595;
   font-size: 30px;
 }
 .green {

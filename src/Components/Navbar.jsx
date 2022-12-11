@@ -22,9 +22,8 @@ import {HamburgerIcon,AddIcon} from "@chakra-ui/icons"
 import { IconButton,Wrap,WrapItem,Avatar } from '@chakra-ui/react'
 
 const links = [
-  { path: "#home", title: "Home" },
-  { path: "#aboutme", title: "About me" },
-  
+  // { path: "#home", title: "Home" },
+  { path: "#aboutme", title: "About" },
   { path: "#projects", title: "Projects" },
   { path: "#skills", title: "Skills" },
   { path: "#contact", title: "Contacts" }
@@ -36,10 +35,10 @@ function Navbar() {
 
 <Box className="navbarbox">
   <Box p='2' >
-    <Heading  className='logo' size='md'>Sammyak</Heading>
+    <Heading  className='logo' fontFamily={'sans-serif'} size='md'>Sammyak</Heading>
   </Box>
   <Spacer />
-  <Box className='navlink' justifyContent={"space-around"}  p='2'>
+  <Box className='navlink'   p='2'>
   {links.map((link) => (
         
         <HashLink

@@ -32,7 +32,7 @@
 
 .aboutebox>h1{
     font-size: 40px;
-    color: white;
+    color: rgb(38, 38, 38);
     font-family:'Marck Script', cursive;
     animation :aboute 2s linear infinite;
    
@@ -73,7 +73,8 @@
     
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 #5ddcff; ;     animation-name: moveleft;
+    box-shadow: 0 8px 32px 0 #5ddcff; ;     
+    animation-name: moveleft;
     animation-duration: 0.7s;
     margin-top: 25px;
 }
