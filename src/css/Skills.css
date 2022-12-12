@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Orbitron&display=swap');
+
+
+
+
+
+.skillsbox{
+    width: 98%;
+    margin-top: 30px;
+    height: auto;
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+  
+}
+.skillsbox>h1{
+    font-size: 40px;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    font-family:'Marck Script', cursive;
+    animation :skills 2s linear infinite;
+  
+    
+}
+
+@keyframes skills {
+    0%{
+           text-shadow: 0 0  40px #64dd17,
+           0 0  40px  #64dd17,
+            0 0  40px #64dd17,
+            0 0  40px #64dd17
+
+    }
+    50%{
+      text-shadow: 0 0  10px #64dd17,
+      0 0  5px #64dd17,
+       0 0  5px #64dd17,
+       0 0  5px #64dd17
+    }
+    100%{
+      text-shadow: 0 0  40px #64dd17,
+      0 0  40px  #64dd17,
+       0 0  40px #64dd17,
+       0 0  40px #64dd17
+    }
+    
+  }
+.gridbox{
+    width:80%;
+    margin: auto;
+    height:70%;
+    margin-top: 5px;
+ 
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:50px 50px;
+    padding: 10px 10px;
+
+}
+
+
+.skillcard{
+    height: 280px;
+    padding: 10px 10px;
+    color: rgb(78, 78, 198);
+     /* border:1px solid #0a0221;
+     border-radius: 15px; */
+     /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+ 
+     -webkit-backdrop-filter: blur(10px);
+     border-radius: 20px;
+     border:1px solid rgba(255, 255, 255, 0.18); */
+     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+     /* animation-name: rotating;
+     animation-duration: 1s;
+     animation-delay: 10s;
+     
+     animation-iteration-count: infinite; */
+     /* background-image:linear-gradient(to right bottom ,black  30%,#0a0221  ); */
+
+
+}
+.skillcard:hover{
+    animation-name: rotating;
+    animation-duration: 1s;
+}
+@keyframes rotating {
+    0%{
+        transform: rotateY(0);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.skillcard>img{
+  width: 90%;
+}
+
+.skillsbox>div:first-child{
+    width: 200px;
+ 
+    height:3rem;
+}
+@media only screen and (max-width: 1200px) {
+    .skillsbox{
+        width: 50rem;
+     
+        height: fit-content;
+        padding: 0.5rem;
+        margin: auto;
+    }
+   
+    .skillsbox>div{
+      width: 90%;
+      margin: auto;
+     
+
+    }
+    .gridbox{
+     
+        margin: auto;
+        width: 100%;
+        height: fit-content;
+      
+        margin-top: 5px;
+     
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap:2rem 2rem;
+        padding: 1rem 1rem;
+    
+    }
+    .skillcard{
+        height:11rem;
+        padding: 0.7rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+ 
+}
+@media only screen and (max-width: 600px) {
+    .skillsbox{
+        width: 40rem;
+        height: fit-content;
+        padding: 0.5rem;
+        margin: auto;
+    }
+    .skillsbox>h1{
+        font-size: 2rem;
+    }
+    .skillsbox>div{
+      width: 90%;
+      margin: auto;
+     
+
+    }
+    .gridbox{
+     
+        margin: auto;
+        height: fit-content;
+      
+        margin-top: 5px;
+     
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:2rem 0rem;
+        
+    
+    }
+    .skillcard{
+        height:9rem;
+        padding: 0.7rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        width: 9rem;
+    }
+    .skillcard>img{
+        height: 6rem;
+    }
+ 
+}

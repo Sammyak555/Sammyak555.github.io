@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { Skills } from "../Pages/Skills"
+import  Skills  from "../Pages/Skills"
 
 
 export const AllRoutes=()=>{
