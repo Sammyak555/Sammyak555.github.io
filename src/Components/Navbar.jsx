@@ -42,7 +42,7 @@ function Navbar() {
   <Spacer />
   
   <Box className='navlink'   p='2'>
-  <a className="navlink" href={Sammyak_MERN_Resume1} download><Button style={{fontSize:"20px" ,width:"150px",marginRight:"50px"}} variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
+  <a className="navresume" href={Sammyak_MERN_Resume1} download><Button  variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
     </a>
   {links.map((link) => (
         

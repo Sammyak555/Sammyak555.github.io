@@ -147,13 +147,18 @@
   }
 
 
-
+  .navresume{
+    width: 150px;
+    font-size: 20px;
+    margin-right: 50px;
+    
+  }
 
 
 
 
   @media only screen and (max-width: 1200px) {
-
+    
 
 
   }
@@ -191,7 +196,10 @@
 
 
 @media only screen and (max-width: 420px) {
-
+  .navresume{
+    margin-right: 20px;
+    font-size: 10px;
+  }
   .navbarbox{
     margin-top: 10px;
     width: 390px;
