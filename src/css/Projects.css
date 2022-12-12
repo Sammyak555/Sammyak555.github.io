@@ -26,6 +26,7 @@
 .projectsbox{
   /* background-image: 
   url("https://wallpaperaccess.com/full/1092564.jpg "); */
+  background-color: rgb(248, 248, 248);
     width: 100%;
     height: fit-content;
     margin: auto;
@@ -48,7 +49,7 @@
 }
 .projectsbox>h1{
   font-size: 40px;
-  color: white;
+  color:rgb(40, 40, 40);
   font-family:'Marck Script', cursive;
   animation :aboute 2s linear infinite;
  
@@ -123,7 +124,7 @@
   justify-content: space-around;
   align-items: center;
   padding:0.2rem 0.5rem;
-  background-image:linear-gradient(to right bottom ,black  30%,#0a0221  );
+  /* background-image:linear-gradient(to right bottom ,black  30%,#0a0221  ); */
   
   ;
 }
@@ -420,7 +421,7 @@
 
 
 
-@media only screen and (max-width: 413px) {
+@media only screen and (max-width: 420px) {
   .projectsbox{
     width: 20rem;
    

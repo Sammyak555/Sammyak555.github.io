@@ -2,7 +2,8 @@
 import React from 'react'
 import { HashLink } from "react-router-hash-link";
 import { NavLink } from 'react-router-dom';
-import { Flex, Spacer,Button,Heading,ButtonGroup,Box } from '@chakra-ui/react'
+import  {RiFileUserLine}  from 'react-icons/ri'
+import { Flex, Spacer,Button,Heading,ButtonGroup,Box, Icon } from '@chakra-ui/react'
 import "./ccss/Navbar.css"
 import {
   Menu,
@@ -20,6 +21,7 @@ import {
 } from '@chakra-ui/react'
 import {HamburgerIcon,AddIcon} from "@chakra-ui/icons"
 import { IconButton,Wrap,WrapItem,Avatar } from '@chakra-ui/react'
+import Sammyak_MERN_Resume1 from "../Resume/Sammyak_MERN_Resume1.pdf"
 
 const links = [
   // { path: "#home", title: "Home" },
@@ -35,10 +37,13 @@ function Navbar() {
 
 <Box className="navbarbox">
   <Box p='2' >
-    <Heading  className='logo' fontFamily={'sans-serif'} size='md'>Sammyak</Heading>
+    <Heading  className='logo' color={"white"} fontFamily={'sans-serif'} size='md'>Sammyak</Heading>
   </Box>
   <Spacer />
+  
   <Box className='navlink'   p='2'>
+  <a className="navlink" href={Sammyak_MERN_Resume1} download><Button style={{fontSize:"20px" ,width:"150px",marginRight:"50px"}} variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
+    </a>
   {links.map((link) => (
         
         <HashLink

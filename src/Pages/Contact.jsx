@@ -58,8 +58,9 @@ function Contact() {
      
      <BsCursorFill/><div><span >Linked In :- </span><a href="https://www.linkedin.com/in/akash-kanade-59ab8218b"><span>Sammyak Deosale</span></a></div>
     </div>
+    <br />
     <div>
-    <a className="btns" href='../Resume/Sammyak_MERN_Resume1.pdf' download><button className="btns">
+    <a className="btns" href='../Resume/Sammyak_MERN_Resume1.pdf' download><button style={{width:"200px"}} className="btns">
       Download CV
       </button>
     </a>
@@ -73,13 +74,14 @@ function Contact() {
         <div className='contactinput'>
              <h1>Message me</h1>
              <FormControl isRequired>
-  <FormLabel>Name</FormLabel>
+  <FormLabel marginTop={"14px"} marginLeft="10px">Name</FormLabel>
   <Input  border={"none"} borderBottom={"1px solid #5ddcff"} background={"transparent"}  placeholder='enter name' width={"95%"} />
-  <FormLabel>Email</FormLabel>
+  <FormLabel marginTop={"14px"} marginLeft="10px">Email</FormLabel>
   <Input  border={"none"} borderBottom={"1px solid #5ddcff"} background={"transparent"}  placeholder='enter email' width={"95%"} />
-  <FormLabel>Message</FormLabel>
+  <FormLabel  marginTop={"14px"} marginLeft="10px">Message</FormLabel>
   <Input border={"none"} borderBottom={"1px solid #5ddcff"} background={"transparent"}  height={"3.5rem"} placeholder='emter message' width={"95%"} />
 </FormControl>
+<br />
 <Button onClick={()=>alert("thank you for visiting")} className='subbtn' background={"transparent"} color="#5ddcff" width="20%">Submit</Button>
 
 

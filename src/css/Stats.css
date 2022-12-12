@@ -6,13 +6,15 @@
 
 
 .statistics{
-    width: 90%;
+  background-color: rgb(248, 248, 248);
+    width: 100%;
     margin: auto;
  height: auto;
    padding: 2rem 2rem;
 }
 .statisticsbox{
-    width: 98%;
+  
+    width: 90%;
     margin: auto;
     align-items: center;
     margin-top: 2rem;
@@ -53,7 +55,7 @@
     width: fit-content;
     margin: auto;
     font-family:'Marck Script', cursive;
-    color: white;
+    color: rgb(40, 40, 40);
     animation :skills 2s linear infinite;
 }
 

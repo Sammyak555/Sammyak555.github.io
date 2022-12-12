@@ -4,7 +4,8 @@ import { Skills } from "../Pages/Skills";
 import '../Styles/global.css';
 import Typewriter from "typewriter-effect"
 import  {RiFileUserLine}  from 'react-icons/ri'
-
+import myimage from "../Styles/myimage.png"
+import Sammyak_MERN_Resume1 from "../Resume/Sammyak_MERN_Resume1.pdf"
 
 export default function Header() {
         const [state]=useState({
@@ -17,7 +18,7 @@ export default function Header() {
         <header>
             {/* <NavBar /> */}
             <div className="header flex light-bg">
-                <div>
+                <div className="content">
                     <h1 className="white">Hi 👋,</h1>
                        <h1 className="white" style={{fontSize:"30px"}}>I am Sammyak Deosale <Typewriter options={{
                              autoStart:true,
@@ -31,10 +32,11 @@ export default function Header() {
                     
                     <h4 className="gray" style={{fontSize:"25   px"}}>I design and code beautiful simple things, and I love what I do.</h4>
                     <br />
-                    <Button style={{fontSize:"20px" ,width:"250px"}} variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
+                    <a href={Sammyak_MERN_Resume1} style={{textDecoration:"none"}} download><Button style={{fontSize:"20px" ,width:"250px"}} variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
+                    </a>
                     <br />
                 </div>
-                <Image src="https://w7.pngwing.com/pngs/181/762/png-transparent-programmer-computer-programming-software-programming-s-computer-computer-program-programming-language.png" width={463} height={513} alt="blaiti"  />
+                <Image style={{border:"1px solid grey", borderRadius:"50%" ,backgroundColor:"	rgb(88,88,88)"}} src={myimage} width={463} height={513} alt="blaiti"  />
             </div>
             
         </header>

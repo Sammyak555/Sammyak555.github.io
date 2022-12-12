@@ -3,24 +3,28 @@
 
 
 .contact{
-    width: 90%;
+  /* background-image: 
+  url("https://cache.desktopnexus.com/thumbseg/2481/2481737-bigthumbnail.jpg"); */
+  background-color: rgb(248, 248, 248);
+    width: 100%;
     height:100rem;
     margin: auto;
     /* border: 1px solid red; */
     margin-top: 30px;
     height: auto;
-    
-    margin-top: auto;
+    padding-top: 100px;
+   margin-top: auto;
     text-align: center;
 }
 .contact>h1{
+    
     font-size: 40px;
     width: fit-content;
     margin: auto;
-    color: white;
+    color: rgb(40, 40, 40);
     text-align: left;
     font-family:'Marck Script', cursive;
-    animation : skills 2s linear infinite;
+    animation : skills 10s linear infinite;
   
 }
 
@@ -47,7 +51,7 @@
     
   }
 .contactbox{
-    width: 95%;
+    width: 90%;
     height: 80vh;
     margin: auto;
     /* border: 2px solid blue; */
@@ -217,18 +221,19 @@
 
 
   
-  @media only screen and (max-width: 413px) {
+  @media only screen and (max-width: 420px) {
     .contact{
-      width: 20rem;
-     
+      
+      width: 400px;
+      border-radius: 5px;
       height: auto;
     }
     .contactbox{
-      width: 80%;
+      width: 100%;
+      border-radius: 5px;
       height: fit-content;
       margin: auto;
-    
-      display: flex;
+  
        flex-direction: column;
       grid-gap:2rem;
      
