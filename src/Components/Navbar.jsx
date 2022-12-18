@@ -51,8 +51,6 @@ function Navbar() {
           //   return isActive ? activeStyle : defaultStyle;
           // }}
           className="active"
-            
-        
           key={link.path}
          smooth to={link.path}
           end

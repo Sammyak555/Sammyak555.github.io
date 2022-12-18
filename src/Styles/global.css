@@ -256,3 +256,20 @@ footer ul li {
       /* back */
   }
 }
+
+
+
+/* 
+.boxes{
+  animation-name: moveleft;
+  animation-duration: 2s;
+  margin-top: 25px;
+}
+@keyframes moveleft {
+  0%{
+      transform: translateX(1500px);
+  }
+  100%{
+      transform: translate(0);
+  }
+} */
