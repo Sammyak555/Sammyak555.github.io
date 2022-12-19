@@ -180,7 +180,7 @@
 
  @media only screen and (max-width: 600px) {
    .aboutebox{
-    width: 40rem;
+    width: 100%;
     height: fit-content;
     padding: 0.5rem;
     margin: auto;
@@ -189,6 +189,7 @@
     font-size: 2rem;
 }
    .box{
+    margin: auto;
     width:80%;
     height:fit-content;
     font-size:1rem;
@@ -200,8 +201,16 @@
     animation-duration: 2s;
     animation-name: moveright;
 }
-
-
+.abtcontent>div>img{
+    width: 0px;
+    visibility: hidden;
+}
+.abtcontent{
+       
+    margin: auto;
+    width: 90%;
+    margin-left: -5px;
+}
 }
 
 

@@ -32,9 +32,9 @@ function Skills() {
         <img   src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt='err'/>
         <p>Node.js</p>
         </div>
-        <div  className='skillcard'>
-        <img   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmtAv2G_LoVvYzVphgkaW6W1yj3z0tR7igw&usqp=CAU" alt='err'/>
-        <p>Express.js</p>
+        <div  className='skillcard' style={{display:"block",justifyContent:'space-between'}}>
+        <img style={{height:"40%",marginTop:"20%"}}  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmtAv2G_LoVvYzVphgkaW6W1yj3z0tR7igw&usqp=CAU" alt='err'/>
+        <p style={{marginTop:"20%"}}>Express.js</p>
         </div>
         <div  className='skillcard'>
         <img   src="https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg" alt='err'/>

@@ -3,94 +3,54 @@
 
 
 
-
-
 .statistics{
-  background-color: rgb(248, 248, 248);
-    width: 100%;
-    margin: auto;
- height: auto;
-   padding: 2rem 2rem;
-}
-.statisticsbox{
-  
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    margin-top: 2rem;
-    color:white;
-    text-align: center;
-   
-   animation-name: moveright;
-   animation-duration: 1s;
-   line-height: normal;
-   background-image:linear-gradient(to right bottom ,black  30%,#0a0221  );
+  background-color: white;
+  padding-top: 50px;
 
-   /* -webkit-backdrop-filter: blur(10px);
-   border-radius: 20px;
-   /* border:1px solid rgba(255, 255, 255, 0.18); */
-   box-shadow: 0 8px 32px 0 #5ddcff; ;
-   padding: 1rem 1rem;
- 
-   border: 1px solie red;
-}
-.statisticsbox>div{
-  margin: auto;
-  margin-top: 50px;
-  width: 95%;
-  border: 20px solid transparent;
-}
-.statisticsbox>div:last-child{
-  margin-top: 5rem;
-}
-.state2{
-  width: 90%;
-  margin-top: 5rem;
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
 }
 .stateheading{
-    font-size: 40px;
-    width: fit-content;
-    margin: auto;
-    font-family:'Marck Script', cursive;
-    color: rgb(40, 40, 40);
-    animation :skills 2s linear infinite;
+  font-size: 40px;
+  width: fit-content;
+  margin: auto;
+  font-family:'Marck Script', cursive;
+  color: rgb(40, 40, 40);
+  animation :skills 2s linear infinite;
+}
+.statisticsbox{
+ 
+  height: auto;
+  
+  width: 100%;
+  justify-content: center;
+}
+.state1{
+  margin: auto;
+ margin-top: 50px;
+  width: 80%;
+  justify-content: center;
+  align-items: center ;
+}
+.state1a{
+
+  width: 45%;
+  margin: auto;
+}
+.state2{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-@keyframes skills {
-    0%{
-           text-shadow: 0 0  40px #64dd17,
-           0 0  40px  #64dd17,
-            0 0  40px #64dd17,
-            0 0  40px #64dd17
-
-    }
-    50%{
-      text-shadow: 0 0  10px #64dd17,
-      0 0  5px #64dd17,
-       0 0  5px #64dd17,
-       0 0  5px #64dd17
-    }
-    100%{
-      text-shadow: 0 0  40px #64dd17,
-      0 0  40px  #64dd17,
-       0 0  40px #64dd17,
-       0 0  40px #64dd17
-    }
-    
-  }
-
-
-
-
-
-
-
-
-
+.state2b>a>img{
+  height: 100%;
+  width: 620px;
   
+}
+
+
+
 @media only screen and (max-width: 600px){
   .statisticsbox{
     display: flex;
@@ -125,5 +85,80 @@
   font-size: 2rem;
    
 }
+.state1a{
 
+  width: 100%;
+  margin: auto;
+}
+}
+@media only screen and (max-width: 420px){
+  .statistics{
+    background-color: white;
+    padding-top: 20px;
+  
+  }
+  .stateheading{
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+    font-family:'Marck Script', cursive;
+    color: rgb(40, 40, 40);
+    animation :skills 2s linear infinite;
+  }
+  .statisticsbox{
+ 
+    height: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .state1{
+    margin: auto;
+   
+    width: 100%;
+    justify-content: center;
+    align-items: center ;
+  }
+  .state1a{
+
+    width: 100%;
+    margin: auto;
+  }
+  .state2{
+    margin-top: -20px;
+    margin: auto;
+   
+    width: 80%;
+    justify-content: center;
+  }
+  
+  
+  .state2b>a>img{
+    height: 100%;
+  }
+}
+
+
+
+
+@keyframes skills {
+  0%{
+         text-shadow: 0 0  40px #64dd17,
+         0 0  40px  #64dd17,
+          0 0  40px #64dd17,
+          0 0  40px #64dd17
+
+  }
+  50%{
+    text-shadow: 0 0  10px #64dd17,
+    0 0  5px #64dd17,
+     0 0  5px #64dd17,
+     0 0  5px #64dd17
+  }
+  100%{
+    text-shadow: 0 0  40px #64dd17,
+    0 0  40px  #64dd17,
+     0 0  40px #64dd17,
+     0 0  40px #64dd17
+  }
+  
 }

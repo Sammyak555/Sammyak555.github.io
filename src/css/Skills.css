@@ -12,7 +12,7 @@
     margin: auto;
     margin-top: auto;
     text-align: center;
-  
+     
 }
 .skillsbox>h1{
     font-size: 40px;
@@ -48,11 +48,11 @@
     
   }
 .gridbox{
-    width:80%;
+    width:90%;
     margin: auto;
     height:70%;
     margin-top: 5px;
- 
+  
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-gap:50px 50px;
@@ -62,25 +62,11 @@
 
 
 .skillcard{
-    height: 280px;
+    height: 200px;
+    width: 200px;
     padding: 10px 10px;
     color: rgb(78, 78, 198);
-     /* border:1px solid #0a0221;
-     border-radius: 15px; */
-     /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
- 
-     -webkit-backdrop-filter: blur(10px);
-     border-radius: 20px;
-     border:1px solid rgba(255, 255, 255, 0.18); */
      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-     /* animation-name: rotating;
-     animation-duration: 1s;
-     animation-delay: 10s;
-     
-     animation-iteration-count: infinite; */
-     /* background-image:linear-gradient(to right bottom ,black  30%,#0a0221  ); */
-
-
 }
 .skillcard:hover{
     animation-name: rotating;
@@ -95,7 +81,8 @@
     }
 }
 .skillcard>img{
-  width: 90%;
+  width: 80%;
+  height: 80%;
 }
 
 .skillsbox>div:first-child{
@@ -131,13 +118,15 @@
     
     }
     .skillcard{
-        height:11rem;
+        width: 9rem;
+        height:9rem;
         padding: 0.7rem;
         font-size: 1.2rem;
         font-weight: bold;
     }
     .skillcard>img{
         height: 80%;
+        width: 80%;
     }
  
 }
@@ -154,11 +143,8 @@
     .skillsbox>div{
       width: 90%;
       margin: auto;
-     
-
     }
     .gridbox{
-        /* border: 1px solid red; */
         margin: auto;
         height: fit-content;
         width: 90%;
