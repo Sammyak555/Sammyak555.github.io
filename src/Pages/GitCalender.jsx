@@ -9,3 +9,4 @@ export function Calendar() {
     </Box>
   )
 }
+console.log(Calendar)
