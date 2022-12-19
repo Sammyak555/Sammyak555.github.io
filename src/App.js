@@ -11,6 +11,7 @@ import Statistics from './Pages/Statistics';
 import { About } from './Pages/About';
 import { useEffect, useRef, useState } from 'react';
 import { Calendar } from './Pages/GitCalender';
+import { AllRoutes } from './Components/AllRoutes';
 
 function App() {
   
@@ -32,7 +33,9 @@ function App() {
      <Statistics /></div>
      <div className='boxes'>
      <Contact/></div>
+     <AllRoutes />
     </div>
+    
   );
 }
 

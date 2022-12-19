@@ -161,7 +161,7 @@
 
  @media only screen and (max-width: 1200px) {
     .aboutebox{
-     width: 60rem;
+     width: 100%;
      height: fit-content;
      padding: 0.5rem;
      margin: auto;
@@ -170,7 +170,7 @@
      font-size: 2rem;
  }
     .box{
-     width:80%;
+     width:30%;
      height:fit-content;
      font-size:1rem;
     }
@@ -206,9 +206,14 @@
 
 
 @media only screen and (max-width: 420px) {
+    .abtcontent{
+       
+        margin: auto;
+        width: 90%;
+        margin-left: -5px;
+    }
     .aboutebox{
-
-        width: 20rem;
+        width: 100%;
         height: fit-content;
         padding: 0.5rem;
         margin: auto;
@@ -217,9 +222,11 @@
         font-size: 50px;
     }
        .box{
+        margin: auto;
         width:80%;
         height:fit-content;
         font-size:1rem;
+       
        }
        .disc {
         font-size: 1rem;

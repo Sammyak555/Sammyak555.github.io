@@ -5,7 +5,7 @@ import "../css/Skills.css"
 function Skills() {
   return (
     <div className="skillsbox" id='skills'>
-       <div className='skillfake'></div>
+      
       <h1>My Skills</h1>
       <div className="gridbox">
         <div className='skillcard'>

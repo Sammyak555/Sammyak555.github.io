@@ -195,6 +195,9 @@ footer ul li {
   
   text-align: center;
 }
+.sammyakimg{
+  width: 400px;
+}
 
 /* --------- Responsive Design --------- */
 @media (max-width: 768px) {
@@ -235,10 +238,14 @@ footer ul li {
   footer ul li {
     margin-left: 0;
   }
+  .sammyakimg{
+    width: 400px;
+  }
 }
 @media only screen and (max-width: 420px){
   .header{
     width: 100%;
+    height: auto;
   }
   .content{
    margin-top: 20px;
@@ -255,6 +262,11 @@ footer ul li {
       
       /* back */
   }
+ .sammyakimg{
+  width: 260px;
+ }
+
+
 }
 
 

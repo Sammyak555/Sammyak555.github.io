@@ -105,8 +105,7 @@
 }
 @media only screen and (max-width: 1200px) {
     .skillsbox{
-        width: 50rem;
-     
+        width: 100%;
         height: fit-content;
         padding: 0.5rem;
         margin: auto;
@@ -125,9 +124,8 @@
         height: fit-content;
       
         margin-top: 5px;
-     
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-gap:2rem 2rem;
         padding: 1rem 1rem;
     
@@ -138,11 +136,14 @@
         font-size: 1.2rem;
         font-weight: bold;
     }
+    .skillcard>img{
+        height: 80%;
+    }
  
 }
 @media only screen and (max-width: 600px) {
     .skillsbox{
-        width: 40rem;
+        width: 100%;
         height: fit-content;
         padding: 0.5rem;
         margin: auto;
@@ -157,12 +158,11 @@
 
     }
     .gridbox{
-     
+        /* border: 1px solid red; */
         margin: auto;
         height: fit-content;
-        width: 150px;
+        width: 90%;
         margin-top: 5px;
-     
         display: grid;
         grid-template-columns: repeat(2,1fr);
        
@@ -171,20 +171,20 @@
     }
     .skillcard{
         height:9rem;
-       
         font-size: 1.5rem;
         font-weight: bold;
         width: 9rem;
+        margin: auto;
         /* height: fit-content; */
     }
     .skillcard>img{
-        height: 6rem;
+        height: 80%;
     }
  
 }
 @media only screen and (max-width: 420px) {
     .skillsbox{
-        width: 300px;
+        width: 100%;
         height: fit-content;
         padding: 0.5rem;
         margin: auto;
