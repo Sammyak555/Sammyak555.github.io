@@ -14,7 +14,7 @@ export const About = () => {
       <div  className="aboutebox" id='aboutme' ref={myRef} >
       <h1>About Me</h1>
         {/* <video   className="aboutevideo" src={background} autoPlay loop muted/> */}
-       <div className="abtcontent hidden" >
+       <div className="abtcontent " >
        <div ref={coderRef} className={` ${''} ${codervisible?"coderanimation":''}` }>
           <img src="https://www.techbabble.zone/content/images/2021/07/46207-programmer-1.gif" alt="" />
         </div>

@@ -5,11 +5,12 @@ import Header from './Components/Header';
 import  Skills  from './Pages/Skills';
 import { Projects } from './Pages/Projects';
 import Contact from './Pages/Contact';
-import Calendor from './Pages/GitCalender';
+
 import Statistics from './Pages/Statistics';
 
 import { About } from './Pages/About';
 import { useEffect, useRef, useState } from 'react';
+import { Calendar } from './Pages/GitCalender';
 
 function App() {
   
@@ -26,7 +27,7 @@ function App() {
      <div className='boxes'>
      <Skills/>
      </div>
-     {/* <Calendor/> */}
+     {/* <Calendar/> */}
      <div className='boxes'>
      <Statistics /></div>
      <div className='boxes'>

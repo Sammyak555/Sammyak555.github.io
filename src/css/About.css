@@ -175,6 +175,7 @@
      height:fit-content;
      font-size:1rem;
     }
+
  }
 
 
@@ -193,6 +194,15 @@
     height:fit-content;
     font-size:1rem;
    }
+   .abtcontent>div>img{
+    width: 260px;
+}
+.coderanimation{
+    animation-duration: 2s;
+    animation-name: moveright;
+}
+
+
 }
 
 
@@ -215,5 +225,10 @@
        .disc {
         font-size: 1rem;
     }
+    .abtcontent>div>img{
+        width: 0px;
+        visibility: hidden;
+    }
+    
     
   }
