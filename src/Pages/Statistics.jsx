@@ -5,7 +5,7 @@ import React from 'react'
 const Statistics = () => {
   return (
     <div className="statistics">
-      <h1 className="stateheading">Github Statistics</h1>
+      <h1 className="stateheading">ＧＩＴＨＵＢ  ＳＴＡＴＩＳＴＩＣＳ</h1>
       <div className="statisticsbox">
         <div className="state1" >
           <div className="state1a">

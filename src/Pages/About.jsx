@@ -1,4 +1,6 @@
 
+import { useEffect } from "react";
+import { useState } from "react";
 import { useInView } from "react-intersection-observer"
 import  "../css/About.css"
 // import background from "../download/background.mov"
@@ -7,12 +9,19 @@ export const About = () => {
   const { ref:myRef, inView:elvisible} = useInView();
   const { ref:boxRef, inView:boxvisible} = useInView();
   const { ref:coderRef, inView:codervisible} = useInView();
- 
+  const [active,setActive]=useState('')
+useEffect(()=>{
+  if(codervisible){
+    setActive(true)
+  }
+},[active,codervisible])
+console.log(active)
+console.log(codervisible)
   
   return (
     <div >
       <div  className="aboutebox" id='aboutme' ref={myRef} >
-      <h1>About Me</h1>
+      <h1>ＡＢＯＵＴ</h1>
         {/* <video   className="aboutevideo" src={background} autoPlay loop muted/> */}
        <div className="abtcontent " >
        <div ref={coderRef} className={` ${''} ${codervisible?"coderanimation":''}` }>

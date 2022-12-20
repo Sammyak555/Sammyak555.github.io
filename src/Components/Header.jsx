@@ -20,17 +20,17 @@ export default function Header() {
             <div className="header flex light-bg">
                 <div className="content">
                     <h1 className="white">Hi 👋,</h1>
-                       <h1 className="white" style={{fontSize:"30px"}}>I am Sammyak Deosale <Typewriter options={{
+                       <h1 className="white" style={{fontSize:"30px"}}>I am Sammyak Deosale <span style={{color:"yellow"}}><Typewriter  options={{
                              autoStart:true,
                             loop:true,
                             delay:40,
                             strings:[
                             "Full Stack Web Developer"]
-                                }}/></h1>
+                                }}/></span> </h1>
                        <h1></h1>
                     <br />
                     
-                    <h4 className="gray" style={{fontSize:"25   px"}}>I design and code beautiful simple things, and I love what I do.</h4>
+                    <h4 className="gray" style={{fontSize:"25   px"}}>I design and code beautiful things, and I love what I do.</h4>
                     <br />
                     <a href={Sammyak_MERN_Resume1} style={{textDecoration:"none"}} download><Button style={{fontSize:"20px" ,width:"250px"}} variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
                     </a>

@@ -6,7 +6,7 @@ function Skills() {
   return (
     <div className="skillsbox" id='skills'>
       
-      <h1>My Skills</h1>
+      <h1>ＳＫＩＬＬＳ</h1>
       <div className="gridbox">
         <div className='skillcard'>
         <img   src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt='err'/>

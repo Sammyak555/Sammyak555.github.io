@@ -1,66 +1,72 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../css/Projects.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // import background from "../download/background.mov"
 import Slideone from '../Components/Slideone'
 import Slidetwo from '../Components/Slidetwo'
-import { ArrowRightIcon } from "@chakra-ui/icons"
+import { ArrowRightIcon, ChevronRightIcon } from "@chakra-ui/icons"
 import { Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, Image, Stack, Text } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 export const Projects = () => {
-
+  useEffect(() => {
+    AOS.init({duration:"1500"});
+  }, [])
   return (
     <div className="projectsbox" id="projects">
-      <video className="projectvideo" autoPlay loop muted />
-
       <div className='fakebox'></div>
-      <h1>Projects</h1>
-      <div className="projectsgridbox">
+      <h1 >ＰＲＯＪＥＣＴＳ</h1>
+      <div  className="projectsgridbox">
 
-        <Card 
+        <Card data-aos="slide-right" 
           direction={{ base: 'column', sm: 'row' }}
           overflow='hidden'
           variant='outline'
-          bgColor={'GrayText'}
+          bgColor={'#336699'}
+          padding='2'
         >
           <Image
             objectFit='cover'
             maxW={{ base: '100%', sm: '200px' }}
-            src='https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'
-            alt='Caffe Latte'
+            src='https://miro.medium.com/max/1400/1*eA7TAy4ObVcCoo-TGtsTAQ.jpeg'
+            alt='myntra'
           />
 
           <Stack>
             <CardBody>
-              <Heading size='md' color={'yellow.300'}>Myntra Clone WebSite</Heading>
-              <Text align={'start'} color='blue.700' fontSize='xl'>
+              <Heading size='md' color={'#7cad3e'}>Myntra Clone Website</Heading>
+              <Text align={'start'} color='#C0C0C0' fontSize='xl'>
                 Tech-Stack :
-                <span style={{ color: "white", fontSize: "15px" }}> CSS, ReactJs, Redux, Redux-Thunk, Chakra-Ui .</span>
               </Text>
-              <Text  align={'start'} color='blue.700' fontSize='xl'>
+              <Text py={'-0.5'} align={'start'} color='white'>
+              <ChevronRightIcon /> CSS, ReactJs, Redux, Redux-Thunk, Chakra-Ui.
+              </Text>
+              <Text  align={'start'} color='#C0C0C0' fontSize='xl'>
                 Features :
               </Text>
-              <Text py={'-0.5'} align={'start'}>
-                <p><ArrowRightIcon /> Authentication</p>
-                <p><ArrowRightIcon />  Sort products by brand or price range</p>
-                <p><ArrowRightIcon />  Filter by popularity or price </p>
-                <p><ArrowRightIcon />  Adding products to cart</p>
-                <p><ArrowRightIcon />  Payment Page</p>
+              <Text py={'-0.5'} align={'start'} color='white'>
+                <p><ChevronRightIcon /> Authentication</p>
+                <p><ChevronRightIcon />  Sort products by brand or price range</p>
+                <p><ChevronRightIcon />  Filter by popularity or price </p>
+                <p><ChevronRightIcon />  Adding products to cart</p>
+                <p><ChevronRightIcon />  Payment Page</p>
               </Text>
             </CardBody>
             <CardFooter py={'-1.5'}>
               <ButtonGroup spacing='5'>
-                <Button variant='solid' colorScheme='blue'>
+                <Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
                   Go Live
                 </Button>
-                <Button variant='solid' colorScheme='blue'>
+                <a href={'https://github.com/Sammyak555/Myntra-clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
                   GitHub Link
-                </Button>
+                </Button></a>
               </ButtonGroup>
             </CardFooter>
           </Stack>
         </Card>
 
 
-        <Card
+        <Card data-aos="slide-right" data-aos-delay="200"
           direction={{ base: 'column', sm: 'row' }}
           overflow='hidden'
           variant='outline'
