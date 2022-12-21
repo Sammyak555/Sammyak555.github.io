@@ -18,7 +18,7 @@ export const Projects = () => {
       <h1 >ＰＲＯＪＥＣＴＳ</h1>
       <div  className="projectsgridbox">
 
-        <Card data-aos="slide-right" 
+        <Card data-aos="fade-up" 
           direction={{ base: 'column', sm: 'row' }}
           overflow='hidden'
           variant='outline'
@@ -66,7 +66,7 @@ export const Projects = () => {
         </Card>
 
 
-        <Card data-aos="slide-right" data-aos-delay="200"
+        <Card data-aos="fade-up" 
           direction={{ base: 'column', sm: 'row' }}
           overflow='hidden'
           variant='outline'
@@ -97,41 +97,7 @@ export const Projects = () => {
           </Stack>
         </Card>
 
-        <div className='projectcard'>
-          <div className='pdetails'>
-            <div className='slides'>
-              <Slidetwo />
-            </div>
-            <div className='details'>
-              <div className='title' color='#5ddcff'>
-                <span>Title :- Olx.on(clone Website)</span>
-
-              </div>
-              <div className='tool'>
-                <span>Tech Stacks </span><span>:- React , Chakra-UI , Firebase , Css</span>
-              </div>
-              <div className='features'>
-                <span>It is ecommmerce webiste here you can buy or cell second hand products</span>
-                <h6>Features</h6>
-                <div>
-                  <p><ArrowRightIcon />  Authentication</p>
-                  <p><ArrowRightIcon />  sort by category or price</p>
-                  <p><ArrowRightIcon />  filter by location of user</p>
-                  <p><ArrowRightIcon />  Searchbar to earc</p>
-                </div>
-
-              </div>
-              <div className='links'>
-                <a href="https://github.com/fw190480/splendid-rhythm-293"><button>Github</button></a>
-                <a href=""><button>Deploy link</button></a>
-                {/* <a href=""><button>Demo Vedio</button></a> */}
-
-              </div>
-            </div>
-
-          </div>
-
-        </div>
+        
       </div>
     </div>
   )

@@ -1,50 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Orbitron&display=swap');
 
-
-
-
-
 .skillsbox{
-    background-color: rgb(248, 248, 248);
+    background-color: white;
     width: 100%;
     padding-top: 100px;
     height: auto;
     margin: auto;
     text-align: center;
-     
+     padding-bottom: 30px;
 }
 .skillsbox>h1{
     font-size: 40px;
     width: fit-content;
     margin: auto;
     color: rgb(40, 40, 40);
-    margin-bottom: 50px;
-    
-    
+    margin-bottom: 50px; 
 }
 
-@keyframes skills {
-    0%{
-           text-shadow: 0 0  40px #64dd17,
-           0 0  40px  #64dd17,
-            0 0  40px #64dd17,
-            0 0  40px #64dd17
 
-    }
-    50%{
-      text-shadow: 0 0  10px #64dd17,
-      0 0  5px #64dd17,
-       0 0  5px #64dd17,
-       0 0  5px #64dd17
-    }
-    100%{
-      text-shadow: 0 0  40px #64dd17,
-      0 0  40px  #64dd17,
-       0 0  40px #64dd17,
-       0 0  40px #64dd17
-    }
-    
-  }
 .gridbox{
     width:90%;
     margin: auto;
@@ -63,21 +36,15 @@
     height: 200px;
     width: 200px;
     padding: 10px 10px;
-    color: rgb(78, 78, 198);
-     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: rgb(40, 40, 40);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .skillcard:hover{
-    animation-name: rotating;
-    animation-duration: 1s;
+ 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-@keyframes rotating {
-    0%{
-        transform: rotateY(0);
-    }
-    100%{
-        transform: rotateY(360deg);
-    }
-}
+
 .skillcard>img{
   width: 80%;
   height: 80%;
