@@ -34,7 +34,7 @@ export const Projects = () => {
 
           <Stack>
             <CardBody>
-              <Heading size='md' color={'#7cad3e'}>Myntra Clone Website</Heading>
+              <Heading size='md' color={'#7cad3e'}>Myntra  Website</Heading>
               <Text align={'start'} color='#C0C0C0' fontSize='xl'>
                 Tech-Stack :
               </Text>
@@ -64,6 +64,99 @@ export const Projects = () => {
             </CardFooter>
           </Stack>
         </Card>
+
+        <Card data-aos="fade-up" 
+          direction={{ base: 'column', sm: 'row' }}
+          overflow='hidden'
+          variant='outline'
+          bgColor={'#336699'}
+          padding='2'
+        >
+          <Image
+            objectFit='cover'
+            maxW={{ base: '100%', sm: '200px' }}
+            src='https://github.com/Nikhil-81/sleek-chance-4491/raw/main/bigbasket/Home.PNG'
+            alt='bigbasket'
+          />
+
+          <Stack>
+            <CardBody>
+              <Heading size='md' color={'#7cad3e'}>BigBasket Website</Heading>
+              <Text align={'start'} color='#C0C0C0' fontSize='xl'>
+                Tech-Stack :
+              </Text>
+              <Text py={'-0.5'} align={'start'} color='white'>
+              <ChevronRightIcon /> CSS, ReactJs, Redux, Redux-Thunk, Chakra-Ui.
+              </Text>
+              <Text  align={'start'} color='#C0C0C0' fontSize='xl'>
+                Features :
+              </Text>
+              <Text py={'-0.5'} align={'start'} color='white'>
+                <p><ChevronRightIcon /> Authentication</p>
+                <p><ChevronRightIcon />  Sort products by brand or price range</p>
+                <p><ChevronRightIcon />  Filter by popularity or price </p>
+                <p><ChevronRightIcon />  Adding products to cart</p>
+                <p><ChevronRightIcon />  Payment Page ( My Contribution )</p>
+              </Text>
+            </CardBody>
+            <CardFooter py={'-1.5'}>
+              <ButtonGroup spacing='5'>
+                <a href="https://vaibhav-firke-makes-great-sites-e8301.netlify.app/"><Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
+                  Go Live
+                </Button></a>
+                <a href={'https://github.com/Nikhil-81/sleek-chance-4491/tree/main/bigbasket'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
+                  GitHub Link
+                </Button></a>
+              </ButtonGroup>
+            </CardFooter>
+          </Stack>
+        </Card>
+        <Card data-aos="fade-up" 
+          direction={{ base: 'column', sm: 'row' }}
+          overflow='hidden'
+          variant='outline'
+          bgColor={'#336699'}
+          padding='2'
+        >
+          <Image
+            objectFit='cover'
+            maxW={{ base: '100%', sm: '200px' }}
+            src='https://d341ezm4iqaae0.cloudfront.net/assets/2021/10/03190032/post-job-screen-e1659553390420.jpg'
+            alt='indeed'
+          />
+
+          <Stack>
+            <CardBody>
+              <Heading size='md' color={'#7cad3e'}>Indeed Website</Heading>
+              <Text align={'start'} color='#C0C0C0' fontSize='xl'>
+                Tech-Stack :
+              </Text>
+              <Text py={'-0.5'} align={'start'} color='white'>
+              <ChevronRightIcon /> CSS, HTML, JavaScript, LocalStorage.
+              </Text>
+              <Text  align={'start'} color='#C0C0C0' fontSize='xl'>
+                Features :
+              </Text>
+              <Text py={'-0.5'} align={'start'} color='white'>
+              <p><ChevronRightIcon /> Authentication</p>
+                <p><ChevronRightIcon />  Job search and Apply job</p>
+                <p><ChevronRightIcon />  Salary guide </p>
+                <p><ChevronRightIcon />  Company Details Page</p>
+              </Text>
+            </CardBody>
+            <CardFooter py={'-1.5'}>
+              <ButtonGroup spacing='5'>
+                <a href="https://deft-florentine-9618bc.netlify.app/"><Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
+                  Go Live
+                </Button></a>
+                <a href={'https://github.com/akshaykadu24/Indeed.com-Clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
+                  GitHub Link
+                </Button></a>
+              </ButtonGroup>
+            </CardFooter>
+          </Stack>
+        </Card>
+        
 
 
         <Card data-aos="fade-up" 
