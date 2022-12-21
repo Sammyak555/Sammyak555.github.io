@@ -14,7 +14,7 @@
   margin: auto;
   font-family:'Marck Script', cursive;
   color: rgb(40, 40, 40);
-  animation :skills 2s linear infinite;
+ 
 }
 .statisticsbox{
  
@@ -140,25 +140,3 @@
 
 
 
-@keyframes skills {
-  0%{
-         text-shadow: 0 0  40px #64dd17,
-         0 0  40px  #64dd17,
-          0 0  40px #64dd17,
-          0 0  40px #64dd17
-
-  }
-  50%{
-    text-shadow: 0 0  10px #64dd17,
-    0 0  5px #64dd17,
-     0 0  5px #64dd17,
-     0 0  5px #64dd17
-  }
-  100%{
-    text-shadow: 0 0  40px #64dd17,
-    0 0  40px  #64dd17,
-     0 0  40px #64dd17,
-     0 0  40px #64dd17
-  }
-  
-}
