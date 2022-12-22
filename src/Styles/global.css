@@ -250,6 +250,9 @@ footer ul li {
   .content{
    margin-top: 20px;
   }
+  .fontsty{
+    font-size: 20px;
+  }
    h1{
     font-size: 10px;
   }
@@ -264,6 +267,9 @@ footer ul li {
   }
  .sammyakimg{
   width: 260px;
+ }
+ .typewr{
+  font-size: 28px;
  }
 
 

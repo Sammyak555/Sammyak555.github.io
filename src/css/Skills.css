@@ -142,7 +142,8 @@
         justify-content: center;
     }
     .skillsbox>h1{
-        font-size: 2rem;
+        font-size: 30px;
+        margin-top: 40px;
     }
     .skillsbox>div{
       width: 90%;
@@ -152,26 +153,24 @@
     }
     .gridbox{
      
-        margin: auto;
+        margin-top: -20px;
         height: fit-content;
         width: 300px;
-        margin-top: 25px;
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(2,1fr);
-       
-        
-    
     }
     .skillcard{
-        height:9rem;
-       
+        height:8rem;
         font-size: 1.5rem;
         font-weight: bold;
-        width: 9rem;
+        width: 8rem;
         /* height: fit-content; */
     }
+    .skillcard>p{
+        font-size: 20px;
+    }
     .skillcard>img{
-        height: 6rem;
+        height: 5.5rem;
     }
 }

@@ -399,8 +399,7 @@
 
 @media only screen and (max-width: 420px) {
   .projectsbox{
-    width: 100%;
-   
+    width: 98%;
     height: auto;
   }
  .projectsgridbox{

@@ -98,8 +98,11 @@
   
   }
   .stateheading{
-    font-size: 30px;
+    word-break: keep-all;
     width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    /* width: fit-content; */
     margin: auto;
     font-family:'Marck Script', cursive;
     color: rgb(40, 40, 40);

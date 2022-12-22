@@ -28,7 +28,7 @@ export const Projects = () => {
           <Image
             objectFit='cover'
             maxW={{ base: '100%', sm: '200px' }}
-            src='https://miro.medium.com/max/1400/1*eA7TAy4ObVcCoo-TGtsTAQ.jpeg'
+            src='https://repository-images.githubusercontent.com/540342974/fd1ce63c-54d6-4082-ad20-c1439973e7b1'
             alt='myntra'
           />
 
@@ -121,7 +121,7 @@ export const Projects = () => {
           <Image
             objectFit='cover'
             maxW={{ base: '100%', sm: '200px' }}
-            src='https://d341ezm4iqaae0.cloudfront.net/assets/2021/10/03190032/post-job-screen-e1659553390420.jpg'
+            src='https://global.discourse-cdn.com/brave/original/3X/0/0/00a39d3d720044feecaa8e14d435f8f6d6bc686d.jpeg'
             alt='indeed'
           />
 

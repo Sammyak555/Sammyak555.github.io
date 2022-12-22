@@ -45,10 +45,8 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 0.9rem 1rem;
-    box-shadow: 0 8px 32px 0 #5ddcff; ;     animation-name: moveleft;
 
-    /* border: 2px solid green; */
-    background-image:linear-gradient(to right bottom ,black  ,#0a0221  );
+
 
 }
 .contactdetails>div{

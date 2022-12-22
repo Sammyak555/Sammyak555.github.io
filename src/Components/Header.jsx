@@ -1,6 +1,5 @@
 import { background, Button, Icon, Image } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { Skills } from "../Pages/Skills";
 import '../Styles/global.css';
 import Typewriter from "typewriter-effect"
 import  {RiFileUserLine}  from 'react-icons/ri'
@@ -20,7 +19,7 @@ export default function Header() {
             <div className="header flex light-bg">
                 <div className="content">
                     <h1 className="white">Hi 👋,</h1>
-                       <h1 className="white" style={{fontSize:"30px"}}>I am Sammyak Deosale <span style={{color:"yellow"}}><Typewriter  options={{
+                       <h1 className="white fontsty" style={{fontSize:"30px"}}>I am Sammyak Deosale <span className="typewr" style={{color:"yellow"}}><Typewriter  options={{
                              autoStart:true,
                             loop:true,
                             delay:40,
