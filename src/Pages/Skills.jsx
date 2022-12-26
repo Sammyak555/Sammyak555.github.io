@@ -46,7 +46,7 @@ function Skills() {
         </div>
         <div  className='skillcard' >
         <img   src="	https://chiranjeev-thapliyal.vercel.app/svg/material-ui.svg" alt='err'/>
-        <p>FireBox</p>
+        <p>Material-Ui</p>
         </div>
         <div  className='skillcard'  >
         <img   src="https://chiranjeev-thapliyal.vercel.app/svg/git.svg" alt='err'/>
