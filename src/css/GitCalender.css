@@ -1,15 +1,35 @@
 
 .gitcont{
    margin: auto;
-   border: 1px solid red;
+   margin-top: 20px;
 }
 
 .calender{
-   border: 1px solid grey;
+   block-size: 20;
+   font-size: 20;
    width: 80%;
    margin: auto;
 }
   
  @media only screen and (max-width: 1200px) {
-    
+   .calender{
+   
+      width: 90%;
+      margin: auto;
+   }
  } 
+
+ @media only screen and (max-width:420px) {
+   .calender{
+   
+      width: 90%;
+      margin: auto;
+   }
+   .calender{
+      block-size: 20;
+      font-size: 20;
+      width: 80%;
+      margin: auto;
+   }
+ 
+ }
