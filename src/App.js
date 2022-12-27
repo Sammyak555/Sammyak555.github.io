@@ -10,7 +10,7 @@ import Statistics from './Pages/Statistics';
 
 import { About } from './Pages/About';
 
-import { Calendar } from './Pages/GitCalender';
+import GitCalender, { Calendar } from './Pages/GitCalender';
 import { AllRoutes } from './Components/AllRoutes';
 
 function App() {
@@ -32,10 +32,11 @@ function App() {
       </div>
       <div className='boxes'>
         <Statistics /></div>
+        <GitCalender/>
       <div className='boxes'>
         <Contact /></div>
       <AllRoutes />
-      {/* <Calendar/> */}
+      
     </div>
 
   );

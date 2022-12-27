@@ -1,12 +1,16 @@
-import GitHubCalendar from 'github-calendar'
-import { Box, Heading } from '@chakra-ui/react'
+import "../css/GitCalender.css"
+import React from 'react'
+import GitHubCalendar from 'react-github-calendar'
 
-export function Calendar() {
+const GitCalender = () => {
   return (
-    <Box  w=" 100%" align="center" mt="100px">
-      <Heading mb="20px">My GitHub Calendar</Heading>
-      <GitHubCalendar username="Sammyak555" />
-    </Box>
+    <div className="gitcont">GitCalender
+      <div className="calender">
+      <GitHubCalendar style={{width:"100%"}} blockSize={20} fontSize={20} username="Sammyak555">
+</GitHubCalendar>
+      </div>
+    </div>
   )
 }
-console.log(Calendar)
+
+export default GitCalender
