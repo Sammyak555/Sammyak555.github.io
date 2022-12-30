@@ -21,7 +21,7 @@ import {
 } from '@chakra-ui/react'
 import {HamburgerIcon,AddIcon} from "@chakra-ui/icons"
 import { IconButton,Wrap,WrapItem,Avatar } from '@chakra-ui/react'
-import Sammyak_MERN_Resume1 from "../Resume/Sammyak_MERN_Resume1.pdf"
+import Sammyak_MERN_Resume1 from "../Resume/Sammyak_Deosale_Mern_Developer_Resume.pdf"
 
 const links = [
   // { path: "#home", title: "Home" },

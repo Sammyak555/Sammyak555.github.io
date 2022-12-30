@@ -4,7 +4,7 @@ import '../Styles/global.css';
 import Typewriter from "typewriter-effect"
 import  {RiFileUserLine}  from 'react-icons/ri'
 import myimage from "../Styles/myimage.png"
-import Sammyak_MERN_Resume1 from "../Resume/Sammyak_MERN_Resume1.pdf"
+import Sammyak_MERN_Resume1 from "../Resume/Sammyak_Deosale_Mern_Developer_Resume.pdf"
 
 export default function Header() {
         const [state]=useState({

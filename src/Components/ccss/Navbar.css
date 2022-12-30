@@ -102,6 +102,7 @@
     text-decoration: none;
     width: fit-content;
     margin-right: 80px;
+    
   }
 
   .link:hover{
@@ -116,34 +117,10 @@
 
   .logo{
     font-family: 'Agustina', sans-serif;
-    /* font-family: 'Dancing Script', cursive; */
-    /* font-family: 'Poppins', sans-serif; */
     color: white;
     margin-left: 30px;
-  /* animation :falsh 2s linear infinite; */
+  
   }
-  /* @keyframes falsh {
-    0%{
-           text-shadow: 0 0  40px #03bcf4,
-           0 0  40px  #03bcf4,
-            0 0  40px #03bcf4,
-            0 0  40px #03bcf4
-
-    }
-    50%{
-      text-shadow: 0 0  10px #03bcf4,
-      0 0  5px #03bcf4,
-       0 0  5px #03bcf4,
-       0 0  5px #03bcf4
-    }
-    100%{
-      text-shadow: 0 0  40px #03bcf4,
-      0 0  40px  #03bcf4,
-       0 0  40px #03bcf4,
-       0 0  40px #03bcf4
-    }
-    
-  } */
 
 
   .navresume{
@@ -181,7 +158,6 @@
      }
      .menuItem:hover{
       text-decoration: none;
-      
       box-shadow: 0 0  10px #03bcf4,
       0 0  5px #03bcf4,
        0 0  5px #03bcf4,
