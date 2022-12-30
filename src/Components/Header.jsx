@@ -35,7 +35,7 @@ export default function Header() {
                     </a>
                     <br />
                 </div>
-                <Image className="sammyakimg" style={{border:"1px solid grey", borderRadius:"50%" ,backgroundColor:"	rgb(88,88,88)"}} src={myimage}  alt="sammyak"  />
+                <Image className="sammyakimg" style={{ borderRadius:"27%" ,backgroundColor:"rgb(69, 124, 178)"}} src={myimage}  alt="sammyak"  />
             </div>
             
         </header>
