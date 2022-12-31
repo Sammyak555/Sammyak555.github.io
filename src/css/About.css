@@ -16,11 +16,11 @@
     background-color: white;
     width: 100%;
     margin-top: 10px;
-    height: 830px;
+    height: fit-content;
     margin: auto;
     text-align: center;
     padding-top: 100px;
- 
+    
 }
 
 
@@ -35,19 +35,23 @@
     display: flex;
     margin: auto;
     width: 90%;
+
 }
 .abtcontent>div{
     margin: auto;
+    /* border: 1px solid red; */
 }
 .abtcontent>div>img{
-    width: 560px;
+    width: 360px;
 }
 
 .box{
     display: inline-block;
-    border: 1px solid green;
-    width: 25%;
+    width: 37%;
     padding: 20px;
+    word-spacing: -3px;
+    word-break: normal;
+    font-family: sans-serif;
 }
 .animatebox{
     animation-name: animate-rocket;
@@ -57,15 +61,6 @@
     0% {
         transform: scale(0) rotate(10deg);
       }
-      /* 5% {
-        transform: scale(1.25) rotate(-15deg);
-      }
-      10% {
-        transform: scale(1.5) rotate(5deg);
-      }
-      15% {
-        transform: scale(1.75) rotate(-10deg);
-      } */
       20% {
         transform: scale(1.5) rotate(0);
       }
@@ -85,68 +80,6 @@
     }
     
 }
-
-
-/* @keyframes aboute {
-    0%{
-           text-shadow: 0 0  40px #5ddcff,
-           0 0  40px  #5ddcff,
-            0 0  40px #5ddcff,
-            0 0  40px #5ddcff
-
-    }
-    50%{
-      text-shadow: 0 0  10px #5ddcff,
-      0 0  5px #5ddcff,
-       0 0  5px #5ddcff,
-       0 0  5px #5ddcff
-    }
-    100%{
-      text-shadow: 0 0  40px #5ddcff,
-      0 0  40px  #5ddcff,
-       0 0  40px #5ddcff,
-       0 0  40px #5ddcff
-    }
-    
-  }
-  .boximg{
-    width: 300px;
-  }
-.box{
-    margin: auto;
-  
-   display: flex;
-    width: 45rem;
-    
-    border:3px solid orange;
-    border-radius: 10px;
-   
-    padding:30px 30px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-   
-    
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 #5ddcff; ;     
-    animation-name: moveleft;
-    animation-duration: 5s;
-    margin-top: 25px;
-}
-@keyframes moveleft {
-    0%{
-        transform: translateX(1500px);
-    }
-    100%{
-        transform: translate(0);
-    }
-    
-}
-.fake{
-    border: none;
-    width: 200px;
-    height:5rem;
-    margin: auto;
-} */
 
  @media only screen and (max-width: 1200px) {
     .aboutebox{
@@ -182,6 +115,7 @@
     width:80%;
     height:fit-content;
     font-size:1rem;
+    word-spacing: 2px;
    }
    .abtcontent>div>img{
     width: 260px;
@@ -223,11 +157,12 @@
         margin: auto;
         width:80%;
         height:fit-content;
-        font-size:1rem;
-       
+        /* font-size:1rem; */
+        word-spacing: 2px;
        }
        .disc {
         font-size: 1rem;
+        word-spacing: 2px;
     }
     .abtcontent>div>img{
         width: 0px;
