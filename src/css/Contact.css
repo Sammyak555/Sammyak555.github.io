@@ -45,13 +45,14 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 0.9rem 1rem;
-
-
-
+}
+.cdt{
+  margin-top: -6px;
 }
 .contactdetails>div{
     width: 90%;
     margin: auto;
+    color: rgb(72, 72, 72);
   height:fit-content;
     /* border:2px solid green; */
     text-align: left;
@@ -72,11 +73,11 @@
 .contactdetails>div>a>button{
     height: 60%;
     background-color: transparent;
-    border: 2px solid #5ddcff;
-    color: #5ddcff;
+    border: 2px solid rgb(72, 72, 72);
+    color: rgb(72, 72, 72);
     border-radius: 7px ;
   }
-  .links>a>button:hover{
+  /* .links>a>button:hover{
    box-shadow: 0 0 5px #5ddcff,
    0 0 5px #5ddcff,
    0 0 5px #5ddcff,
@@ -87,21 +88,9 @@
    0 0 20px #5ddcff,
    0 0 20px #5ddcff,
    0 0 20px #5ddcff; ;
-  }
+  } */
 
 
-
-/* .contactdetails>div:last-child{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
-/* .contactdetails>div>div{
-    width: 6rem;
-    height: 2rem;
-    padding:0.2rem 0.2rem;
-    border: 2px solid  #5ddcff;
-} */
 .contactdetails>div>div>a>img{
     width: 100%;
     height: 90%;
@@ -116,15 +105,15 @@
     height:fit-content;
     border-radius: 20px;
     display: flex;
-    color: #5ddcff;
+    color: rgb(72, 72, 72);
     flex-direction: column;
     justify-content: space-around;
-    box-shadow: 0 8px 32px 0 #5ddcff; 
+    box-shadow: 0 8px 32px 0 rgb(72, 72, 72); 
     padding: 0.8rem 0.8rem;     
     animation-name: moveleft;
 
     /* border: 2px solid green; */
-    background-image:linear-gradient(to right bottom ,black  ,#0a0221  );
+    /* background-image:linear-gradient(to right bottom ,black  ,#0a0221  ); */
 }
 .contactinput>h1{
     font-size: 1.5rem;
@@ -132,13 +121,13 @@
 .subbtn{
     height: 60%;
     background-color: transparent;
-    border: 2px solid #5ddcff;
-    color: #5ddcff;
+    border: 2px solid rgb(72, 72, 72);
+    color: rgb(72, 72, 72);
     border-radius: 7px ;
     margin: auto;
     margin-top: 0.5rem;
   }
-  .subbtn:hover{
+  /* .subbtn:hover{
    box-shadow: 0 0 5px #5ddcff,
    0 0 5px #5ddcff,
    0 0 5px #5ddcff,
@@ -149,7 +138,7 @@
    0 0 20px #5ddcff,
    0 0 20px #5ddcff,
    0 0 20px #5ddcff; ;
-  }
+  } */
 
 
 

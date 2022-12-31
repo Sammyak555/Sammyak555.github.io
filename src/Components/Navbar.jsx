@@ -1,26 +1,11 @@
 
 import React from 'react'
 import { HashLink } from "react-router-hash-link";
-import { NavLink } from 'react-router-dom';
 import  {RiFileUserLine}  from 'react-icons/ri'
 import { Flex, Spacer,Button,Heading,ButtonGroup,Box, Icon } from '@chakra-ui/react'
 import "./ccss/Navbar.css"
-import {
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
-
-  Input
-  
-
-} from '@chakra-ui/react'
-import {HamburgerIcon,AddIcon} from "@chakra-ui/icons"
-import { IconButton,Wrap,WrapItem,Avatar } from '@chakra-ui/react'
+import {Menu,MenuButton,MenuList,MenuItem} from '@chakra-ui/react'
+import {HamburgerIcon} from "@chakra-ui/icons"
 import Sammyak_MERN_Resume1 from "../Resume/Sammyak_Deosale_Mern_Developer_Resume.pdf"
 
 const links = [
@@ -37,10 +22,9 @@ function Navbar() {
 
 <Box className="navbarbox">
   <Box p='2' >
-    <Heading  className='logo' color={"white"} fontFamily={'sans-serif'} size='md'>Sammyak</Heading>
+    <Heading  className='logo' color={"white"} fontFamily={'sans-serif'} size='md'>{"< Sammyak />"}</Heading>
   </Box>
   <Spacer />
-  
   <Box className='navlink'   p='2'>
   <a className="navresume" href={Sammyak_MERN_Resume1} download><Button  variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
     </a>

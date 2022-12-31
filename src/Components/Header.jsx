@@ -18,17 +18,16 @@ export default function Header() {
             {/* <NavBar /> */}
             <div className="header flex light-bg">
                 <div className="content">
-                    <h1 className="white">Hi 👋,</h1>
-                       <h1 className="white fontsty" style={{fontSize:"30px"}}>I am Sammyak Deosale <span className="typewr" style={{color:"rgb(69, 124, 178)"}}><Typewriter  options={{
+                    <h1 className="white">Hi,</h1>
+                       <h1 className="white fontsty" style={{fontSize:"30px"}}>I am Sammyak Deosale <span className="typewr" style={{color:"orange"}}><Typewriter  options={{
                              autoStart:true,
                             loop:true,
                             delay:50,
                             strings:[
                             "Full Stack Web Developer"]
                                 }}/></span> </h1>
-                    <br />
                     
-                    <h4 className="gray" style={{fontSize:"25   px"}}>I design and code beautiful things, and I love what I do.</h4>
+                    <h4 className="gray fontsty" style={{fontSize:"25   px"}}>I would love to practice and use my skills to help an organisation uplift by truly folllowing the phrase "Rise by lifting others".</h4>
                     <br />
                     <a href={Sammyak_MERN_Resume1} style={{textDecoration:"none"}} download><Button style={{fontSize:"20px" ,width:"250px"}} variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
                     </a>
