@@ -1,33 +1,25 @@
-
-.gitcont{
-   margin: auto;
-   margin-top: 20px;
-}
-
-.calender{
-   width: 60rem;
-   margin: auto;
-}
-  
- @media only screen and (max-width: 1200px) {
-   .calender{
+.Git_call{
+   color: rgb(76, 76, 76);
+   }
+   .react-activity-calendar{
+       margin: auto;
+       margin-top:3rem
+   }
    
-      width: 90%;
-      margin: auto;
+   .git_stack{
+       margin: auto;
+       border: 1px solid red;
    }
- } 
-
- @media only screen and (max-width:420px) {
-   .calender{
    
-      width: 90%;
-      margin: auto;
+   .gitHead{
+       font-size: 2rem;
+       color:rgb(76, 76, 76);
+   
    }
-   .calender{
-      block-size: 20;
-      font-size: 20;
-      width: 80%;
-      margin: auto;
+
+   @media only screen and (max-width: 420px) {
+      .Git_call{
+         width: 90%;
+         margin: auto;
+      }
    }
- 
- }

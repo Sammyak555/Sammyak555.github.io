@@ -22,7 +22,7 @@ function Navbar() {
 
 <Box className="navbarbox">
   <Box p='2' >
-    <Heading  className='logo' color={"white"} fontFamily={'sans-serif'} size='md'>{"< Sammyak />"}</Heading>
+    <Heading  className='logo' color={"white"} fontFamily={'sans-serif'} size='md'>Sammyak</Heading>
   </Box>
   <Spacer />
   <Box className='navlink'   p='2'>

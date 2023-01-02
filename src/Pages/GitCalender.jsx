@@ -1,18 +1,20 @@
 import "../css/GitCalender.css"
-import React from 'react'
-import GitHubCalendar from 'react-github-calendar'
-
-const GitCalender = () => {
-  
-  return (
-    <div className="gitcont">
-      {/* <h1 className="stateheading">ＣＡＬＥＮＤＥＲ</h1> */}
-      <div className="calender">
-      <GitHubCalendar style={{width:"100%"}} blockSize={20} fontSize={20} username="Sammyak555">
-</GitHubCalendar>
-      </div>
-    </div>
-  )
+import GitHubCalendar from 'react-github-calendar';
+export default function GitCalender(){
+    return (
+        <>
+        {/* <div>
+            
+            <img className="git_stack" src="https://github-readme-stats.vercel.app/api?username=Nikhil-81&show_icons=true&theme=radical" />
+        </div>
+        <br/>
+        <div>
+            <img  className="git_stack" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-81&theme=chartreuse-dark" />
+        </div> */}
+        <div className='Git_call' >
+        <GitHubCalendar style={{ margin: "auto" }}
+            responsive={true} username="Sammyak555" />
+        </div>
+        </>
+    )
 }
-
-export default GitCalender

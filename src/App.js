@@ -14,10 +14,6 @@ import GitCalender, { Calendar } from './Pages/GitCalender';
 import { AllRoutes } from './Components/AllRoutes';
 
 function App() {
-
-
-  
-
   return (
     <div className="App">
       <Navbar />
