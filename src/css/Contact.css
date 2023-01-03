@@ -187,15 +187,16 @@
   @media only screen and (max-width: 420px) {
     .cdt{
       margin-left: 10px;
+      visibility: hidden;
     }
     .contact{
       margin-top: -20px;
-      width:100%;
+      width:90%;
       border-radius: 5px;
       height: auto;
     }
     .contactbox{
-      width: 100%;
+      width: 98%;
       border-radius: 5px;
       height: fit-content;
       margin: auto;
@@ -204,8 +205,8 @@
      
   }
   .contactdetails{
-    
-    width: 100%;
+    justify-content: space-around;
+    width: auto;
     font-size: 10px;
     height: fit-content;
     padding: 0.5rem 0.5rem;

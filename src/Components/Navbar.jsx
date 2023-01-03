@@ -47,20 +47,17 @@ function Navbar() {
  
   <Box className="menubutton">
   <Menu >
-  <MenuButton height="70%"  width="9%" padding={"3"}  as={Button} colorScheme='green'>
+  <MenuButton height="70%"  width="9%" padding={"3"}  as={Button} backgroundColor="#172b4d">
   <HamburgerIcon height="80%"  width="80%" />
   </MenuButton>
 
-  <MenuList  className="menu"  borderRadius={"15px"} w={"200px"}>
+  <MenuList  className="menu" >
   {links.map((link) => (
       <HashLink 
       key={link.path}
      smooth to={link.path}
       end>
-  <MenuItem className="menuItem" height={"30px"} style={{textDecoration:"none",
-   fontSize:"15px",
-   textAlign:"center",
-   alignItems:"center"}} ><p>{link.title}</p></MenuItem>
+  <MenuItem className="menuItem"  ><p>{link.title}</p></MenuItem>
   </HashLink>
   )
   )

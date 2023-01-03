@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-image: 
   url("./image.png");
     width: 100%;
-    height: 800px;
+    height: fit-content;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -207,6 +207,12 @@ footer ul li {
     align-items: center;
     justify-content: center;
   }
+  .white{
+    font-size: medium;
+  }
+  .fontsty{
+    font-size: 20px;
+  }
   /* Header */
   nav {
     padding: 1rem 2rem;
@@ -239,7 +245,7 @@ footer ul li {
     margin-left: 0;
   }
   .sammyakimg{
-    width: 400px;
+    width: 280px;
   }
 }
 @media only screen and (max-width: 420px){
