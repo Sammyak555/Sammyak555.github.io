@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect"
 import  {RiFileUserLine}  from 'react-icons/ri'
 import myimage from "../Styles/myimage.png"
 import Sammyak_MERN_Resume1 from "../Resume/Sammyak_Deosale_Mern_Developer_Resume.pdf"
+import { SiLinkedin } from "react-icons/si";
 
 export default function Header() {
     //     const [state]=useState({
@@ -31,6 +32,7 @@ export default function Header() {
                     <br />
                     <a href={Sammyak_MERN_Resume1} style={{textDecoration:"none"}} download><Button style={{fontSize:"20px" ,width:"250px"}} variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
                     </a>
+                    <div className="headicons"></div>
                     <br />
                 </div>
                 <Image className="sammyakimg" style={{ borderRadius:"27%" ,backgroundColor:"rgb(69, 124, 178)"}} src={myimage}  alt="sammyak"  />

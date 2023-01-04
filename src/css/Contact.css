@@ -23,8 +23,6 @@
     margin: auto;
     color: rgb(40, 40, 40);
     text-align: left;
-
-  
 }
 
 .contactbox{
@@ -42,63 +40,6 @@
   display: grid;
   gap: 20px;
 }
-
-.contactdetails{
-  background-color: #172b4d;
-  display: flex;
-  justify-content: space-evenly;
-    margin-top: 20px;
-    width: 100%;
-    /* height: 200px; */
-    /* border: 1px solid red; */
-    height:fit-content;
-    /* flex-direction: column; */
-    justify-content: space-around;
-    padding: 0.9rem 1rem;
-    margin: auto;
-}
-.cdt{
-  margin-top: -6px;
-  margin-left: 5px;
-}
-.contactdetails>div{
-    width: 100%;
-    margin: auto;
-    color: white;
-  height:fit-content;
-    /* border:2px solid green; */
-    text-align: left;
-    font-size: 25px;
-    display: flex;
-    /* justify-content: flex-start; */
-   
-   
-}
-.contactdetails>div>div{
-    /* margin-left: 20px; */
-    text-align: left;
-}
-.contactdetails>div:last-child{
- align-items: center;
-}
-
-.contactdetails>div>a>button{
-    height: 60%;
-    background-color: transparent;
-    border: 2px solid rgb(72, 72, 72);
-    color: rgb(72, 72, 72);
-    border-radius: 7px ;
-  }
-
-.contactdetails>div>div>a>img{
-    width: 100%;
-    height: 90%;
-}
-.contactdetails>div>div>a>img:hover{
-    transform: scale(1.4);
-}
-
-
 .contactinput{
     width: 45%;
     height:fit-content;
@@ -185,10 +126,7 @@
 
   
   @media only screen and (max-width: 420px) {
-    .cdt{
-      margin-left: 10px;
-      visibility: hidden;
-    }
+    
     .contact{
       margin-top: -20px;
       width:90%;
@@ -204,7 +142,7 @@
       grid-gap:2rem;
      
   }
-  .contactdetails{
+  /* .contactdetails{
     justify-content: space-around;
     width: auto;
     font-size: 10px;
@@ -214,7 +152,7 @@
   .contactdetails>div{
     width: 98%;
     font-size: 0.8rem;
-  }
+  } */
   .contactinput{
     width: 90%;
     font-size: 10px;

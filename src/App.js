@@ -12,6 +12,7 @@ import { About } from './Pages/About';
 
 import GitCalender, { Calendar } from './Pages/GitCalender';
 import { AllRoutes } from './Components/AllRoutes';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <GitCalender/>
       <div className='boxes'>
         <Contact /></div>
+        <Footer />
       <AllRoutes />
       
     </div>

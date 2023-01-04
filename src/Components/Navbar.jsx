@@ -47,7 +47,7 @@ function Navbar() {
  
   <Box className="menubutton">
   <Menu >
-  <MenuButton height="70%"  width="9%" padding={"3"}  as={Button} backgroundColor="#172b4d">
+  <MenuButton height="70%"  width="9%" padding={"3"} color="white"  as={Button} backgroundColor="#172b4d">
   <HamburgerIcon height="80%"  width="80%" />
   </MenuButton>
 

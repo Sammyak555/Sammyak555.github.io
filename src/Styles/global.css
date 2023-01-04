@@ -14,14 +14,14 @@ a {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
-.dark-bg {
+/* .dark-bg {
   background-image: 
   url("./image.png");
     width: 100%;
     height: fit-content;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 /* https://miro.medium.com/max/1400/1*nyU2IcNL3TVxZ_GPkkmt2g.png */
 
@@ -32,8 +32,7 @@ h1, h2, h3, h4, h5, h6, p {
     height: 830px;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    /* back */
+
 }
 .white {
   color: #FFFFFF;
@@ -196,6 +195,7 @@ footer ul li {
   text-align: center;
 }
 .sammyakimg{
+  margin-top: -20px;
   width: 400px;
 }
 
