@@ -24,7 +24,10 @@ h1, h2, h3, h4, h5, h6, p {
 } */
 
 /* https://miro.medium.com/max/1400/1*nyU2IcNL3TVxZ_GPkkmt2g.png */
-
+/* .moddiv{
+  width: 100%;
+  border: 1px solid red;
+} */
 .light-bg {
   background-image: 
   url("./image.png");

@@ -37,7 +37,7 @@ export default function Header() {
                 </div>
                 <Image className="sammyakimg" style={{ borderRadius:"27%" ,backgroundColor:"rgb(69, 124, 178)"}} src={myimage}  alt="sammyak"  />
             </div>
-            
+            <div className="moddiv"></div>
         </header>
     )
 }
