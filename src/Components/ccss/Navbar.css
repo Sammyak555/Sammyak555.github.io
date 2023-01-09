@@ -179,6 +179,13 @@
   .navresume {
     font-size: 10px;
   }
+  .navlink {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+  }
 
   .navbarbox {
     margin-top: 10px;
@@ -201,7 +208,7 @@
 
   .menu {
     width: 250px;
-    color: white;
+    color: white ;
   }
 
   .css-1tq2qea {

@@ -13,7 +13,7 @@
       justify-content: space-around;
       padding: 0.9rem 1rem;
       margin: auto;
-      height: 260px;
+      height: 210px;
   }
   .conthead{
     background-color: #172b4d;
@@ -24,7 +24,7 @@
   }
   .contactdet>div{
     margin: auto;
-    width: fit-content;
+    /* width: fit-content; */
       color: white;
     height:fit-content;
       /* border:2px solid green; */
@@ -32,6 +32,15 @@
       display: flex;
       gap: 5px;
       margin-bottom: 5px;
+  }
+  .contactdet>div:first-child{
+    width: fit-content;
+  }
+  .lasticons{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 400px;
+    justify-content: space-evenly;
   }
  
   @media  (max-width: 420px){
@@ -41,6 +50,12 @@
         font-size: 30px;
         margin: auto;
        text-align: center;
+      }
+      .lasticons{
+        display: flex;
+        /* border: 1px solid red; */
+        width: 200px;
+        justify-content: space-evenly;
       }
       .contactdet{
         background-color: #172b4d;
@@ -52,6 +67,6 @@
           justify-content: space-around;
           padding: 0.9rem 1rem;
           margin: auto;
-          height: 260px;
+          height: 200px;
       }
   }

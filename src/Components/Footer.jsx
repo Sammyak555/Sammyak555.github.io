@@ -17,14 +17,17 @@ const Footer = () => {
         <div data-aos="zoom-in">
           <FiPhone /> <div className='cdt'><span>+91-9503803512</span></div>
         </div>
+        <br />
+        <div className='lasticons'>
         <div data-aos="zoom-in">
-          <FiMail /><div className='cdt'><span>sammyak.deosale.1@gmail.com</span></div>
+         <div className='cdt'><a href="sammyak.deosale.1@gmail.com"><FiMail size={50}/></a></div>
         </div>
         <div data-aos="zoom-in">
-          <BsGithub /><div className='cdt'><a href="https://github.com/Sammyak555"><span>Sammyak555</span></a></div>
+         <div className='cdt'><a href="https://github.com/Sammyak555" target={"_self"}> <BsGithub size={50}/></a></div>
         </div>
         <div data-aos="zoom-in">
-          <SiLinkedin /><div className='cdt'><a href="https://www.linkedin.com/in/sammyak-deosale-1b9abb229/"><span>Sammyak Deosale</span></a></div>
+         <div className='cdt'><a href="https://www.linkedin.com/in/sammyak-deosale-1b9abb229/"> <SiLinkedin size={50}/></a></div>
+        </div>
         </div>
         <br />
       </div>

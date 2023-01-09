@@ -12,8 +12,8 @@ export default function GitCalender(){
             <img  className="git_stack" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-81&theme=chartreuse-dark" />
         </div> */}
         <div className='Git_call' >
-        <GitHubCalendar style={{ margin: "auto" }}
-            responsive={true} username="Sammyak555" />
+        <GitHubCalendar style={{ margin: "auto",width:"device-width"}}
+            responsive={"true"} username="Sammyak555" />
         </div>
         </>
     )
