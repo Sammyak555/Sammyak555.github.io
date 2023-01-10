@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6e6899a.css",
-    "main.js": "/static/js/main.cf55d833.js",
+    "main.css": "/static/css/main.4a823375.css",
+    "main.js": "/static/js/main.d199efe7.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/myimage.png": "/static/media/myimage.905f40b2c55d55815c6d.png",
-    "static/media/image.png": "/static/media/image.f92864a1d8a86e46786b.png",
     "static/media/Sammyak_Deosale_Mern_Developer_Resume.pdf": "/static/media/Sammyak_Deosale_Mern_Developer_Resume.fd62114353a362f99c4a.pdf",
     "index.html": "/index.html",
-    "main.d6e6899a.css.map": "/static/css/main.d6e6899a.css.map",
-    "main.cf55d833.js.map": "/static/js/main.cf55d833.js.map",
+    "main.4a823375.css.map": "/static/css/main.4a823375.css.map",
+    "main.d199efe7.js.map": "/static/js/main.d199efe7.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6e6899a.css",
-    "static/js/main.cf55d833.js"
+    "static/css/main.4a823375.css",
+    "static/js/main.d199efe7.js"
   ]
 }
