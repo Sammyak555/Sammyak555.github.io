@@ -95,7 +95,8 @@
   .statistics{
     background-color: white;
     padding-top: 20px;
-  
+    /* border: 1px solid red; */
+    margin-bottom: -140px;
   }
   .stateheading{
     word-break: keep-all;
@@ -109,8 +110,8 @@
     animation :skills 2s linear infinite;
   }
   .statisticsbox{
- 
     height: auto;
+   
     width: 100%;
     justify-content: center;
   }

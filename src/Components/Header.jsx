@@ -8,12 +8,6 @@ import Sammyak_MERN_Resume1 from "../Resume/Sammyak_Deosale_Mern_Developer_Resum
 import { SiLinkedin } from "react-icons/si";
 
 export default function Header() {
-    //     const [state]=useState({
-    //       title:"Hellow",
-    //       titletwo:"I'm",
-    //       titlethree:"Full Stack Web Developer",
-        
-    //   })
     return (
         <header>
             {/* <NavBar /> */}
@@ -35,7 +29,7 @@ export default function Header() {
                     <div className="headicons"></div>
                     <br />
                 </div>
-                <Image className="sammyakimg" style={{ borderRadius:"27%" ,backgroundColor:"rgb(69, 124, 178)"}} src={myimage}  alt="sammyak"  />
+                <Image className="sammyakimg" style={{ borderRadius:"15%" }} src={myimage}  alt="sammyak"  />
             </div>
             <div className="moddiv"></div>
         </header>

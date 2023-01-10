@@ -14,20 +14,7 @@ a {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
-/* .dark-bg {
-  background-image: 
-  url("./image.png");
-    width: 100%;
-    height: fit-content;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
-/* https://miro.medium.com/max/1400/1*nyU2IcNL3TVxZ_GPkkmt2g.png */
-/* .moddiv{
-  width: 100%;
-  border: 1px solid red;
-} */
 .light-bg {
   /* background-image: 
   url("./image.png");
@@ -37,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-size: cover; */
     background: linear-gradient(220deg,#11cdef,#1171ef)!important;
     width: 100%;
-    height: 830px;
+    height: 670px;
     clip-path: polygon(0% 20%,
                   0% 0%,
                   100% 0%,
@@ -46,7 +33,7 @@ h1, h2, h3, h4, h5, h6, p {
                   0% 90%,
                    0% 20%);
 }
-/*  */
+
 .white {
   color: #FFFFFF;
 }
@@ -209,7 +196,7 @@ footer ul li {
 }
 .sammyakimg{
   margin-top: -20px;
-  width: 400px;
+  width: 300px;
 }
 
 /* --------- Responsive Design --------- */
@@ -311,20 +298,3 @@ footer ul li {
 
 
 }
-
-
-
-/* 
-.boxes{
-  animation-name: moveleft;
-  animation-duration: 2s;
-  margin-top: 25px;
-}
-@keyframes moveleft {
-  0%{
-      transform: translateX(1500px);
-  }
-  100%{
-      transform: translate(0);
-  }
-} */

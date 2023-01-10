@@ -14,7 +14,7 @@ export const About = () => {
   
   return (
     <div >
-      <div  className="aboutebox" id='aboutme' >
+      <div  className="aboutebox " id='aboutme' >
       <h1>ＡＢＯＵＴ</h1>
         {/* <video   className="aboutevideo" src={background} autoPlay loop muted/> */}
        <div className="abtcontent " >
