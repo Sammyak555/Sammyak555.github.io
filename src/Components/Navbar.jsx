@@ -26,7 +26,7 @@ function Navbar() {
   </Box>
   <Spacer />
   <Box className='navlink' >
-  <a className="navresume" href={Sammyak_MERN_Resume1} download><Button  variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} />My Resume</Button>
+  <a className="navresume" href='https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing' download><Button  variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} />My Resume</Button>
     </a>
   {links.map((link) => (
         

@@ -10,7 +10,7 @@ function Skills() {
   return (
     <div className="skillsbox" id='skills'>
       
-      <h1>ＳＫＩＬＬＳ</h1>
+      <h1>ＳＫＩＬＬＳ ＆ ＴＯＯＬＳ</h1>
       <div className="gridbox">
         <div className='skillcard'  >
         <img   src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt='err'/>
@@ -45,8 +45,8 @@ function Skills() {
         <p>MongoDB</p>
         </div>
         <div  className='skillcard' >
-        <img   src="	https://chiranjeev-thapliyal.vercel.app/svg/material-ui.svg" alt='err'/>
-        <p>Material-Ui</p>
+        <img   src="	https://code.visualstudio.com/assets/images/code-stable.png" alt='err'/>
+        <p>Vs-Code</p>
         </div>
         <div  className='skillcard'  >
         <img   src="https://chiranjeev-thapliyal.vercel.app/svg/git.svg" alt='err'/>
