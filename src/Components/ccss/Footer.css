@@ -43,7 +43,7 @@
     justify-content: space-evenly;
   }
  
-  @media  (max-width: 420px){
+  @media  (max-width: 426px){
     .conthead{
         background-color: #172b4d;
         color: white;
@@ -68,5 +68,8 @@
           padding: 0.9rem 1rem;
           margin: auto;
           height: 200px;
+      }
+      .foot-contact{
+        border: 1px solid red;
       }
   }

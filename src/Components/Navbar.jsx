@@ -6,7 +6,7 @@ import { Flex, Spacer,Button,Heading,ButtonGroup,Box, Icon } from '@chakra-ui/re
 import "./ccss/Navbar.css"
 import {Menu,MenuButton,MenuList,MenuItem} from '@chakra-ui/react'
 import {HamburgerIcon} from "@chakra-ui/icons"
-import Sammyak_MERN_Resume1 from "../Resume/Sammyak_Deosale_Mern_Developer_Resume.pdf"
+import Sammyak_MERN_Resume1 from "../Resume/Sammyak_Deosale_Resume.pdf"
 
 const links = [
   // { path: "#home", title: "Home" },

@@ -4,7 +4,7 @@ import '../Styles/global.css';
 import Typewriter from "typewriter-effect"
 import  {RiFileUserLine}  from 'react-icons/ri'
 import myimage from "../Styles/myimage.png"
-import Sammyak_MERN_Resume1 from "../Resume/Sammyak_Deosale_Mern_Developer_Resume.pdf"
+import Sammyak_MERN_Resume1 from "../Resume/Sammyak_Deosale_Resume.pdf"
 import { SiLinkedin } from "react-icons/si";
 
 export default function Header() {
