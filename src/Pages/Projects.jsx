@@ -57,12 +57,12 @@ export const Projects = () => {
             </CardBody>
             <CardFooter py={'-1.5'}>
               <ButtonGroup spacing='5'>
-                <a href="https://shopversemyntra.netlify.app">
+                <a href="frontend-three-coral.vercel.app/">
                 <Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
                   Go Live
                 </Button>
                 </a>
-                <a href={'https://github.com/Sammyak555/Myntra-clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
+                <a href={'https://github.com/Saurav02022/Nykaa-Clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
                   GitHub Link
                 </Button></a>
               </ButtonGroup>
