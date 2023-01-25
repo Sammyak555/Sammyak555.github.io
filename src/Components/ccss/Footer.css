@@ -72,4 +72,8 @@
       .foot-contact{
         border: 1px solid red;
       }
+      .cdt>h3{
+        margin-top: 6px;
+        font-size: 20px;
+      }
   }
