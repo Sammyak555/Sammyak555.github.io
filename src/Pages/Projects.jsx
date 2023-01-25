@@ -57,7 +57,7 @@ export const Projects = () => {
             </CardBody>
             <CardFooter py={'-1.5'}>
               <ButtonGroup spacing='5'>
-                <a href="frontend-three-coral.vercel.app/">
+                <a href="https://frontend-three-coral.vercel.app/">
                 <Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
                   Go Live
                 </Button>
