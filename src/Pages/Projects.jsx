@@ -10,14 +10,14 @@ import { Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, Imag
 import { Link } from 'react-router-dom'
 export const Projects = () => {
   useEffect(() => {
-    AOS.init({duration:"1500"});
+    AOS.init({ duration: "1500" });
   }, [])
   return (
     <div className="projectsbox" id="projects">
       <div className='fakebox'></div>
       <h1 >ＰＲＯＪＥＣＴＳ</h1>
-      <div  className="projectsgridbox">
-      <Card data-aos="fade-up" 
+      <div className="projectsgridbox">
+        <Card data-aos="fade-up"
           direction={{ base: 'column', sm: 'row' }}
           overflow='hidden'
           variant='outline'
@@ -41,26 +41,25 @@ export const Projects = () => {
                 Tech-Stack :
               </Text>
               <Text py={'-0.5'} align={'start'} color='white'>
-              <ChevronRightIcon /> CSS, ReactJs, Redux, Redux-Thunk, Chakra-Ui, node.js, express.js, mongoDB
+                <ChevronRightIcon />HTML, JS, CSS, ReactJs, Chakra-Ui, node.js, express.js, mongoDB
               </Text>
-              <Text  align={'start'} color='#C0C0C0' fontSize='xl'>
-                Features :
+              <Text align={'start'} color='#C0C0C0' fontSize='xl'>
+                Features I worked on :
               </Text>
               <Text py={'-0.5'} align={'start'} color='white'>
-                <p><ChevronRightIcon /> Authentication</p>
-                <p><ChevronRightIcon />  Sort products by brand or price range</p>
-                <p><ChevronRightIcon />  Filter by popularity or price </p>
-                <p><ChevronRightIcon />  Adding products to cart</p>
-                <p><ChevronRightIcon />  Payment Page</p>
-                <p><ChevronRightIcon />  Admin Panel </p>
+                <p><ChevronRightIcon /> Authentication of Admin</p>
+                <p><ChevronRightIcon />  Search products by title or product Id</p>
+                <p><ChevronRightIcon />  CRUD operation on products </p>
+                <p><ChevronRightIcon />  User deleting and blocking by email</p>
+                <p><ChevronRightIcon />  Pagination</p>
               </Text>
             </CardBody>
             <CardFooter py={'-1.5'}>
               <ButtonGroup spacing='5'>
                 <a href="https://frontend-three-coral.vercel.app/">
-                <Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
-                  Go Live
-                </Button>
+                  <Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
+                    Go Live
+                  </Button>
                 </a>
                 <a href={'https://github.com/Saurav02022/Nykaa-Clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
                   GitHub Link
@@ -69,60 +68,7 @@ export const Projects = () => {
             </CardFooter>
           </Stack>
         </Card>
-
-      <Card data-aos="fade-up" 
-          direction={{ base: 'column', sm: 'row' }}
-          overflow='hidden'
-          variant='outline'
-          bgColor={'#336699'}
-          padding='2'
-        >
-          <Image
-            objectFit='cover'
-            maxW={{ base: '100%', sm: '200px' }}
-            src='https://repository-images.githubusercontent.com/540342974/fd1ce63c-54d6-4082-ad20-c1439973e7b1'
-            alt='myntra'
-          />
-
-          <Stack>
-            <CardBody>
-              <Heading size='md' color={'#A3C577'}>Myntra  Website</Heading>
-              <Text align={'start'} color='white' fontSize='15px'>
-                It is a clone of e-commerce website myntra.com
-              </Text>
-              <Text align={'start'} color='#C0C0C0' fontSize='xl'>
-                Tech-Stack :
-              </Text>
-              <Text py={'-0.5'} align={'start'} color='white'>
-              <ChevronRightIcon /> CSS, ReactJs, Redux, Redux-Thunk, Chakra-Ui
-              </Text>
-              <Text  align={'start'} color='#C0C0C0' fontSize='xl'>
-                Features :
-              </Text>
-              <Text py={'-0.5'} align={'start'} color='white'>
-                <p><ChevronRightIcon /> Authentication</p>
-                <p><ChevronRightIcon />  Sort products by brand or price range</p>
-                <p><ChevronRightIcon />  Filter by popularity or price </p>
-                <p><ChevronRightIcon />  Adding products to cart</p>
-                <p><ChevronRightIcon />  Payment Page</p>
-              </Text>
-            </CardBody>
-            <CardFooter py={'-1.5'}>
-              <ButtonGroup spacing='5'>
-                <a href="https://shopversemyntra.netlify.app">
-                <Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
-                  Go Live
-                </Button>
-                </a>
-                <a href={'https://github.com/Sammyak555/Myntra-clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
-                  GitHub Link
-                </Button></a>
-              </ButtonGroup>
-            </CardFooter>
-          </Stack>
-        </Card>
-
-        <Card data-aos="fade-up" 
+        <Card data-aos="fade-up"
           direction={{ base: 'column', sm: 'row' }}
           overflow='hidden'
           variant='outline'
@@ -146,17 +92,16 @@ export const Projects = () => {
                 Tech-Stack :
               </Text>
               <Text py={'-0.5'} align={'start'} color='white'>
-              <ChevronRightIcon /> CSS, ReactJs, Redux, Redux-Thunk, Chakra-Ui
+                <ChevronRightIcon /> CSS, ReactJs, Redux, Redux-Thunk, Chakra-Ui
               </Text>
-              <Text  align={'start'} color='#C0C0C0' fontSize='xl'>
-                Features :
+              <Text align={'start'} color='#C0C0C0' fontSize='xl'>
+                Features I worked on :
               </Text>
               <Text py={'-0.5'} align={'start'} color='white'>
-                <p><ChevronRightIcon /> Authentication</p>
-                <p><ChevronRightIcon />  Sort products by brand or price range</p>
-                <p><ChevronRightIcon />  Filter by popularity or price </p>
-                <p><ChevronRightIcon />  Adding products to cart</p>
-                <p><ChevronRightIcon />  Payment Page </p>
+                <p><ChevronRightIcon /> CRUD operation on address card</p>
+                <p><ChevronRightIcon />  Order Summary card</p>
+                <p><ChevronRightIcon />  Diffrent Payment Options </p>
+                <p><ChevronRightIcon />  Payment of products</p>
               </Text>
             </CardBody>
             <CardFooter py={'-1.5'}>
@@ -171,7 +116,58 @@ export const Projects = () => {
             </CardFooter>
           </Stack>
         </Card>
-        <Card data-aos="fade-up" 
+        <Card data-aos="fade-up"
+          direction={{ base: 'column', sm: 'row' }}
+          overflow='hidden'
+          variant='outline'
+          bgColor={'#336699'}
+          padding='2'
+        >
+          <Image
+            objectFit='cover'
+            maxW={{ base: '100%', sm: '200px' }}
+            src='https://repository-images.githubusercontent.com/540342974/fd1ce63c-54d6-4082-ad20-c1439973e7b1'
+            alt='myntra'
+          />
+
+          <Stack>
+            <CardBody>
+              <Heading size='md' color={'#A3C577'}>Myntra  Website</Heading>
+              <Text align={'start'} color='white' fontSize='15px'>
+                It is a clone of e-commerce website myntra.com
+              </Text>
+              <Text align={'start'} color='#C0C0C0' fontSize='xl'>
+                Tech-Stack :
+              </Text>
+              <Text py={'-0.5'} align={'start'} color='white'>
+                <ChevronRightIcon /> CSS, ReactJs, Redux, Redux-Thunk, Chakra-Ui
+              </Text>
+              <Text align={'start'} color='#C0C0C0' fontSize='xl'>
+                Features I worked on :
+              </Text>
+              <Text py={'-0.5'} align={'start'} color='white'>
+                <p><ChevronRightIcon /> Authentication</p>
+                <p><ChevronRightIcon />  Sort products by brand or price range</p>
+                <p><ChevronRightIcon />  Filter by popularity or price </p>
+                <p><ChevronRightIcon />  Adding products to cart</p>
+                <p><ChevronRightIcon />  Payment Page</p>
+              </Text>
+            </CardBody>
+            <CardFooter py={'-1.5'}>
+              <ButtonGroup spacing='5'>
+                <a href="https://shopversemyntra.netlify.app">
+                  <Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
+                    Go Live
+                  </Button>
+                </a>
+                <a href={'https://github.com/Sammyak555/Myntra-clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
+                  GitHub Link
+                </Button></a>
+              </ButtonGroup>
+            </CardFooter>
+          </Stack>
+        </Card>
+        <Card data-aos="fade-up"
           direction={{ base: 'column', sm: 'row' }}
           overflow='hidden'
           variant='outline'
@@ -195,13 +191,13 @@ export const Projects = () => {
                 Tech-Stack :
               </Text>
               <Text py={'-0.5'} align={'start'} color='white'>
-              <ChevronRightIcon /> CSS, HTML, JavaScript, LocalStorage
+                <ChevronRightIcon /> CSS, HTML, JavaScript, LocalStorage
               </Text>
-              <Text  align={'start'} color='#C0C0C0' fontSize='xl'>
-                Features :
+              <Text align={'start'} color='#C0C0C0' fontSize='xl'>
+                Features I worked on :
               </Text>
               <Text py={'-0.5'} align={'start'} color='white'>
-              <p><ChevronRightIcon /> Authentication</p>
+                <p><ChevronRightIcon /> Authentication</p>
                 <p><ChevronRightIcon />  Job search and Apply job</p>
                 <p><ChevronRightIcon />  Salary guide </p>
                 <p><ChevronRightIcon />  Company Details Page</p>
