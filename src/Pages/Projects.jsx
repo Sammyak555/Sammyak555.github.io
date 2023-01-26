@@ -47,6 +47,7 @@ export const Projects = () => {
                 Features I worked on :
               </Text>
               <Text py={'-0.5'} align={'start'} color='white'>
+                <p><ChevronRightIcon /> Complete Backend of Project</p>
                 <p><ChevronRightIcon /> Authentication of Admin</p>
                 <p><ChevronRightIcon />  Search products by title or product Id</p>
                 <p><ChevronRightIcon />  CRUD operation on products </p>
