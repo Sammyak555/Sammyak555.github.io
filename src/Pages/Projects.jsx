@@ -57,12 +57,12 @@ export const Projects = () => {
             </CardBody>
             <CardFooter py={'-1.5'}>
               <ButtonGroup spacing='5'>
-                <a href="https://frontend-three-coral.vercel.app/">
-                  <Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
+                <a href="https://frontend-three-coral.vercel.app/" target={'_blank'}>
+                  <Button variant='solid' color={'white'} backgroundColor='#7cad3e' >
                     Go Live
                   </Button>
                 </a>
-                <a href={'https://github.com/Saurav02022/Nykaa-Clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
+                <a target={'_blank'} href={'https://github.com/Saurav02022/Nykaa-Clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
                   GitHub Link
                 </Button></a>
               </ButtonGroup>
@@ -107,10 +107,10 @@ export const Projects = () => {
             </CardBody>
             <CardFooter py={'-1.5'}>
               <ButtonGroup spacing='5'>
-                <a href="https://vaibhav-firke-makes-great-sites-e8301.netlify.app/"><Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
+                <a href="https://vaibhav-firke-makes-great-sites-e8301.netlify.app/" target={'_blank'}><Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
                   Go Live
                 </Button></a>
-                <a href={'https://github.com/Nikhil-81/sleek-chance-4491/tree/main/bigbasket'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
+                <a href={'https://github.com/Nikhil-81/sleek-chance-4491/tree/main/bigbasket'} target={'_blank'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
                   GitHub Link
                 </Button></a>
               </ButtonGroup>
@@ -156,12 +156,12 @@ export const Projects = () => {
             </CardBody>
             <CardFooter py={'-1.5'}>
               <ButtonGroup spacing='5'>
-                <a href="https://shopversemyntra.netlify.app">
+                <a href="https://shopversemyntra.netlify.app" target={'_blank'}>
                   <Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
                     Go Live
                   </Button>
                 </a>
-                <a href={'https://github.com/Sammyak555/Myntra-clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
+                <a href={'https://github.com/Sammyak555/Myntra-clone'} target={'_blank'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
                   GitHub Link
                 </Button></a>
               </ButtonGroup>
@@ -206,10 +206,10 @@ export const Projects = () => {
             </CardBody>
             <CardFooter py={'-1.5'}>
               <ButtonGroup spacing='5'>
-                <a href="https://deft-florentine-9618bc.netlify.app/"><Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
+                <a href="https://deft-florentine-9618bc.netlify.app/" target={'_blank'}><Button variant='solid' color={'white'} backgroundColor='#7cad3e'>
                   Go Live
                 </Button></a>
-                <a href={'https://github.com/akshaykadu24/Indeed.com-Clone'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
+                <a href={'https://github.com/akshaykadu24/Indeed.com-Clone'} target={'_blank'}><Button color={'#7cad3e'} variant='solid' backgroundColor='white'>
                   GitHub Link
                 </Button></a>
               </ButtonGroup>

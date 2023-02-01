@@ -24,7 +24,7 @@ export default function Header() {
                     
                     <h4 className="gray fontsty" style={{fontSize:"25   px"}}>I would love to practice and use my skills to help an organisation uplift by truly folllowing the phrase "Rise by lifting others".</h4>
                     <br />
-                    <a href='https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing' style={{textDecoration:"none"}} download><Button style={{fontSize:"20px" ,width:"250px"}} variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
+                    <a href='https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing' style={{textDecoration:"none"}} download><Button  _hover={{ bg: 'gray.700' }} style={{fontSize:"20px" ,width:"250px"}} variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} w={6} h={6}/>My Resume</Button>
                     </a>
                     <div className="headicons"></div>
                     <br />

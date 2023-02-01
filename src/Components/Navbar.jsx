@@ -26,7 +26,7 @@ function Navbar() {
   </Box>
   <Spacer />
   <Box className='navlink' >
-  <a className="navresume" href='https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing' download><Button  variant='outline' justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} />My Resume</Button>
+  <a className="navresume" href='https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing' download><Button  variant='outline' _hover={{ bg: 'gray.700' }} justifyContent={"space-evenly"} color={"white"}><Icon as={RiFileUserLine} />My Resume</Button>
     </a>
   {links.map((link) => (
         
@@ -47,7 +47,7 @@ function Navbar() {
  
   <Box className="menubutton">
   <Menu >
-  <MenuButton height="70%"  width="9%" padding={"3"} color="white"  as={Button} backgroundColor="#172b4d">
+  <MenuButton height="70%"  width="9%" padding={"3"} color="white" _hover={{ bg: 'gray.700' }}  as={Button} backgroundColor="#172b4d">
   <HamburgerIcon height="80%"  width="80%" />
   </MenuButton>
 

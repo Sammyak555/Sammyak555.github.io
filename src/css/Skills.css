@@ -33,8 +33,8 @@
 
 
 .skillcard{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     padding: 10px 10px;
     color: rgb(40, 40, 40);
     border-radius: 8px;
@@ -51,7 +51,7 @@
 }
 
 .skillsbox>div:first-child{
-    width: 200px;
+    width: 180px;
  
     height:3rem;
 }
@@ -131,7 +131,7 @@
     }
  
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 426px) {
     .skillsbox{
         width: 100%;
         height: fit-content;

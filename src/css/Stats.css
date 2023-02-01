@@ -42,10 +42,14 @@
   justify-content: center;
   margin-top: 50px;
 }
+.state2a>a>img{
+  height: 100%;
+  width: 226px;
+}
 
 .state2b>a>img{
   height: 100%;
-  width: 620px;
+  width: 520px;
   
 }
 
@@ -91,7 +95,7 @@
   margin: auto;
 }
 }
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 426px){
   .statistics{
     background-color: white;
     padding-top: 20px;
