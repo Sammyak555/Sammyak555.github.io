@@ -18,18 +18,8 @@ const links = [
 
 function Navbar() {
   const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch(Sammyak_MERN_Resume1).then(response => {
-      response.blob().then(blob => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = Sammyak_MERN_Resume1;
-        alink.click();
-      })
-    })
+    window.open('https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing')
+   
   }
   return (
     <Box className="navbarbox">
@@ -38,7 +28,7 @@ function Navbar() {
       </Box>
       <Spacer />
       <Box className='navlink' >
-        <a className="navresume" target={'_blank'} href='https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing' ><Button variant='outline' _hover={{ bg: 'gray.700' }} justifyContent={"space-evenly"} color={"white"} onClick={onButtonClick}><Icon as={RiFileUserLine} />My Resume</Button>
+        <a className="navresume" target={'_blank'} href={Sammyak_MERN_Resume1} download={true}><Button variant='outline' _hover={{ bg: 'gray.700' }} justifyContent={"space-evenly"} color={"white"} onClick={onButtonClick}><Icon as={RiFileUserLine} />My Resume</Button>
         </a>
         {links.map((link) => (
 
