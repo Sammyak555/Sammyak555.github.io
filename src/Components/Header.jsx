@@ -4,8 +4,8 @@ import '../Styles/global.css';
 import Typewriter from "typewriter-effect"
 import  {RiFileUserLine}  from 'react-icons/ri'
 import myimage from "../Styles/myimage.png"
-import Sammyak_MERN_Resume1 from "../Resume/fw19_1004_sammyak_deosale_Resume.pdf"
-import { SiLinkedin } from "react-icons/si";
+import Sammyak_MERN_Resume1 from "../Resume/fw19_1004-Sammyak-Deosale-Resume.pdf"
+
 
 export default function Header() {
     const onButtonClick = () => {
@@ -32,7 +32,7 @@ export default function Header() {
                     <div className="headicons"></div>
                     <br />
                 </div>
-                <Image className="sammyakimg" style={{ borderRadius:"15%" }} src={myimage}  alt="sammyak"  />
+                <Image className="sammyakimg" style={{ borderRadius:"50%" }} src={myimage}  alt="sammyak"  />
             </div>
             <div className="moddiv"></div>
         </header>
