@@ -17,7 +17,7 @@ export default function Header() {
             <div className="header flex light-bg">
                 <div className="content">
                     <h1 className="white">Hi,</h1>
-                       <h1 className="white fontsty" style={{fontSize:"30px"}}>I am Sammyak Deosale <span className="typewr" style={{color:"orange"}}><Typewriter  options={{
+                       <h1 className="white fontsty" style={{fontSize:"30px",position:'relative'}}>I am Sammyak Deosale <span className="typewr" ><Typewriter  options={{
                              autoStart:true,
                             loop:true,
                             delay:50,

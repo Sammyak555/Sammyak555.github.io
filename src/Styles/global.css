@@ -1,10 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Mono';
 }
 
 a {
@@ -32,6 +31,11 @@ h1, h2, h3, h4, h5, h6, p {
                   0% 100%,
                   0% 90%,
                    0% 20%);
+}
+.typewr{
+  font-family: 'Poiret One', cursive;
+  color:#e2ffbc;
+  font-weight:bolder ;
 }
 
 .white {
