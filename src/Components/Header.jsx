@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect"
 import  {RiFileUserLine}  from 'react-icons/ri'
 import myimage from "../Styles/myimage.png"
 import Sammyak_MERN_Resume1 from "../Resume/fw19_1004-Sammyak-Deosale-Resume.pdf"
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Sacramento&display=swap" rel="stylesheet"></link>
 
 
 export default function Header() {
@@ -17,7 +18,7 @@ export default function Header() {
             <div className="header flex light-bg">
                 <div className="content">
                     <h1 className="white">Hi,</h1>
-                       <h1 className="white fontsty" style={{fontSize:"30px",position:'relative'}}>I am Sammyak Deosale <span className="typewr" ><Typewriter  options={{
+                       <h1 className="white fontsty" style={{fontSize:"41px",position:'relative',fontFamily:'Sacramento'}}><span style={{color:'orange'}}>Sammyak </span> Deosale <span className="typewr" ><Typewriter  options={{
                              autoStart:true,
                             loop:true,
                             delay:50,
