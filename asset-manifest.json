@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec7e9039.css",
-    "main.js": "/static/js/main.1e5fb99d.js",
+    "main.css": "/static/css/main.40d4cc8c.css",
+    "main.js": "/static/js/main.f28c7752.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/myimage.png": "/static/media/myimage.905f40b2c55d55815c6d.png",
     "static/media/fw19_1004-Sammyak-Deosale-Resume.pdf": "/static/media/fw19_1004-Sammyak-Deosale-Resume.c07bf9ba01cede004ff7.pdf",
     "index.html": "/index.html",
-    "main.ec7e9039.css.map": "/static/css/main.ec7e9039.css.map",
-    "main.1e5fb99d.js.map": "/static/js/main.1e5fb99d.js.map",
+    "main.40d4cc8c.css.map": "/static/css/main.40d4cc8c.css.map",
+    "main.f28c7752.js.map": "/static/js/main.f28c7752.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec7e9039.css",
-    "static/js/main.1e5fb99d.js"
+    "static/css/main.40d4cc8c.css",
+    "static/js/main.f28c7752.js"
   ]
 }
