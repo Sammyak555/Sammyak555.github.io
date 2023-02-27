@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.053f377d.css",
-    "main.js": "/static/js/main.4b8f6669.js",
+    "main.js": "/static/js/main.116ac337.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/myimage.png": "/static/media/myimage.905f40b2c55d55815c6d.png",
     "static/media/fw19_1004-Sammyak-Deosale-Resume.pdf": "/static/media/fw19_1004-Sammyak-Deosale-Resume.c07bf9ba01cede004ff7.pdf",
     "index.html": "/index.html",
     "main.053f377d.css.map": "/static/css/main.053f377d.css.map",
-    "main.4b8f6669.js.map": "/static/js/main.4b8f6669.js.map",
+    "main.116ac337.js.map": "/static/js/main.116ac337.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.053f377d.css",
-    "static/js/main.4b8f6669.js"
+    "static/js/main.116ac337.js"
   ]
 }
