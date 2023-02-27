@@ -17,7 +17,7 @@ export default function Header() {
             {/* <NavBar /> */}
             <div className="header flex light-bg">
                 <div className="content">
-                    <h1 className="white">Hi,</h1>
+                    <h1 className="white">Hi I am,</h1>
                     <h1 className="white fontsty" style={{ fontSize: "41px", position: 'relative', fontFamily: 'Sacramento' }}><span style={{ color: 'orange' }}>Sammyak </span> Deosale <span className="typewr" ><Typewriter options={{
                         autoStart: true,
                         loop: true,
