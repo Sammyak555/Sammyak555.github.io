@@ -7,6 +7,8 @@ import "./ccss/Navbar.css"
 import { Menu, MenuButton, MenuList, MenuItem } from '@chakra-ui/react'
 import { HamburgerIcon } from "@chakra-ui/icons"
 import Sammyak_MERN_Resume1 from "../Resume/fw19_1004-Sammyak-Deosale-Resume.pdf"
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Sacramento&family=Shantell+Sans:ital,wght@1,300&display=swap" rel="stylesheet"></link>
+
 
 const links = [
   // { path: "#home", title: "Home" },
@@ -24,7 +26,7 @@ function Navbar() {
   return (
     <Box className="navbarbox">
       <Box  >
-        <Heading className='logo' color={"white"} fontFamily={'sans-serif'} size='auto'>{"Sammyak"}</Heading>
+        <Heading className='logo' fontFamily={'Sacramento' } size={'auto'}>{"< Sammyak />"}</Heading>
       </Box>
       <Spacer />
       <Box className='navlink' >
@@ -33,15 +35,11 @@ function Navbar() {
         {links.map((link) => (
 
           <HashLink
-            // style={({ isActive }) => {
-            //   return isActive ? activeStyle : defaultStyle;
-            // }}
             className="active"
             key={link.path}
             smooth to={link.path}
             end
           ><div className='link'>
-
               {link.title}</div>
           </HashLink>
         ))}
