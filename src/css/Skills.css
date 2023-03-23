@@ -19,22 +19,25 @@
 
 
 .gridbox{
-    width:90%;
+    width:70%;
     margin: auto;
     height:70%;
     margin-top: 5px;
-  
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-gap:50px 50px;
-    padding: 10px 10px;
-
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:50px 20px;
+    padding: 10px 10px 0px 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
+
 .skillcard{
-    height: 180px;
-    width: 180px;
+    
+    height: 160px;
+    width: 160px;
     padding: 10px 10px;
     color: rgb(40, 40, 40);
     border-radius: 8px;
@@ -51,7 +54,7 @@
 }
 
 .skillsbox>div:first-child{
-    width: 180px;
+    width: 160px;
  
     height:3rem;
 }

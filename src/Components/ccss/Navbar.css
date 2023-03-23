@@ -91,10 +91,9 @@
 .link {
   transition: 0.2s;
   color: white;
-  font-size: large;
-  font-family: 'Poiret One';
+  font-size: medium;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 500;
   width: fit-content;
   margin-right: 80px;
 }
