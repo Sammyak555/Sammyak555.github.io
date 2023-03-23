@@ -13,7 +13,11 @@
 
 
 .aboutebox{
-    
+    background-image: 
+    url("https://udportfolio.herokuapp.com/static/media/f-shape1.ac50c4b972819f44af52.png");
+    width: 90%; 
+    background-repeat: no-repeat;
+    background-position: 100% 1px;
     background-color: white;
     width: 100%;
     margin-top: 10px;
@@ -88,6 +92,7 @@
      height: fit-content;
      padding: 0.5rem;
      margin: auto;
+     background-position: 100% 1px;
     }
     .aboutebox>h1{
      font-size: 2rem;
@@ -106,6 +111,9 @@
     .aboutebox>h1{
         font-size: 40px;
     }
+    .aboutebox{
+        background-position: 70% 10px;
+    }
  }
 
 
@@ -115,6 +123,7 @@
     height: fit-content;
     padding: 0.5rem;
     margin: auto;
+    background-position: 10% 1px;
    }
    .aboutebox>h1{
     font-size: 2rem;
@@ -158,6 +167,8 @@
         height: fit-content;
         padding: 0.5rem;
         margin: auto;
+        background-repeat: no-repeat;
+    background-position: 10% 1px;
        }
        .aboutebox>h1{
         font-size: 30px;
