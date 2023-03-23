@@ -24,6 +24,10 @@ function Skills() {
           <img src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg" alt='err' />
           <p>JavaScript</p>
         </div>
+        <div className='skillcard'  >
+          <img src="https://i.imgur.com/T2ZnBHn.png" alt='err' />
+          <p>TypeScript</p>
+        </div>
         <div className='skillcard' >
           <img src="	https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg" alt='err' />
           <p>React.js</p>
@@ -44,6 +48,7 @@ function Skills() {
           <img src="https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg" alt='err' />
           <p>MongoDB</p>
         </div>
+        
       </div>
         <br />
       <h1> ＴＯＯＬＳ</h1>
