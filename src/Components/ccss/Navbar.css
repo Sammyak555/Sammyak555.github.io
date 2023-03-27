@@ -223,15 +223,22 @@
 
   .menuItem {
     background-color: white;
+    
   }
 
   .menuItem:hover {
     text-decoration: none;
-
     box-shadow: 0 0 10px #03bcf4,
       0 0 5px #03bcf4,
       0 0 5px #03bcf4,
       0 0 5px #03bcf4
+  }
+  .menuItem>p {
+    margin-left: 70px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(40, 40, 40);
   }
 
 

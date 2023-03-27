@@ -57,12 +57,13 @@ function Navbar() {
                 key={link.path}
                 smooth to={link.path}
                 end>
-                <MenuItem className="menuItem"  ><p>{link.title}</p></MenuItem>
+                <MenuItem className="menuItem"><p>{link.title}</p></MenuItem>
               </HashLink>
             )
             )
             }
           </MenuList>
+          
         </Menu>
       </Box>
 
