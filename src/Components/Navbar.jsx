@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <Box className="navbarbox">
       <Box  >
-        <Heading className='logo' fontFamily={'Sacramento' } size={'auto'}>{"< Sammyak />"}</Heading>
+        <h1 className='logo navheadname' >{"< Sammyak />"}</h1>
       </Box>
       <Spacer />
       <Box className='navlink' >

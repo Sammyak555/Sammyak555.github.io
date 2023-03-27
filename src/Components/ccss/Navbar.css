@@ -15,7 +15,11 @@
   position: fixed;
   background-color: #172b4d;
 }
+.navheadname{
+  font-size: x-large;
+  font-family: Sacramento;
 
+}
 .menu {
   text-align: center;
   border-radius: 5px;
@@ -172,7 +176,7 @@
 
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 426px) {
   .navresume {
     font-size: 10px;
   }
@@ -181,6 +185,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  
+  }
+  .navheadname{
+    font-size: large;
+    font-family: Sacramento;
   
   }
 
