@@ -33,7 +33,6 @@ function Navbar() {
         <a className="navresume" target={'_blank'} href={Sammyak_MERN_Resume1} download={true}><Button variant='outline' _hover={{ bg: 'gray.700' }} justifyContent={"space-evenly"} color={"white"} onClick={onButtonClick}><Icon as={RiFileUserLine} />My Resume</Button>
         </a>
         {links.map((link) => (
-
           <HashLink
             className="active"
             key={link.path}

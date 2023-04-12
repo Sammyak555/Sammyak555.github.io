@@ -68,24 +68,6 @@
     margin: auto;
     margin-top: 0.5rem;
   }
-  /* .subbtn:hover{
-   box-shadow: 0 0 5px #5ddcff,
-   0 0 5px #5ddcff,
-   0 0 5px #5ddcff,
-   0 0 5px #5ddcff,
-   0 0 5px #5ddcff;
-   text-shadow:0 0 5px #5ddcff,
-   0 0 20px #5ddcff,
-   0 0 20px #5ddcff,
-   0 0 20px #5ddcff,
-   0 0 20px #5ddcff; ;
-  } */
-
-
-
-
-
-
 
   @media only screen and (max-width: 1200px) {
     .contact{

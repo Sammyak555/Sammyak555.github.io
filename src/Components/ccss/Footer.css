@@ -4,7 +4,7 @@
   }
   
 .contactdet{
-    background-color: #172b4d;
+  background: linear-gradient(220deg,#3ed4ee,#1171ef);
     display: block;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
       height: 210px;
   }
   .conthead{
-    background-color: #172b4d;
+    background: linear-gradient(220deg,#3ed4ee,#1171ef);
     color: white;
     font-size: 40px;
     margin: auto;

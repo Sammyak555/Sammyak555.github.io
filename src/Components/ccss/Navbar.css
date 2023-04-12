@@ -13,7 +13,7 @@
   margin: auto;
   z-index: 1;
   position: fixed;
-  background-color: #172b4d;
+  background: linear-gradient(220deg,#3ed4ee,#4490f3)
 }
 .navheadname{
   font-size: x-large;
@@ -95,7 +95,7 @@
 .link {
   transition: 0.2s;
   color: white;
-  font-size: medium;
+  font-size: large;
   text-decoration: none;
   font-weight: 500;
   width: fit-content;
@@ -235,6 +235,7 @@
   }
   .menuItem>p {
     margin-left: 70px;
+    padding: 5px 0;
     margin-bottom: 10px;
     font-size: 20px;
     margin-top: 15px;
