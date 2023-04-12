@@ -2,7 +2,7 @@
 import React from 'react'
 import { HashLink } from "react-router-hash-link";
 import { RiFileUserLine } from 'react-icons/ri'
-import { Flex, Spacer, Button, Heading, ButtonGroup, Box, Icon } from '@chakra-ui/react'
+import { Spacer, Button, Box, Icon } from '@chakra-ui/react'
 import "./ccss/Navbar.css"
 import { Menu, MenuButton, MenuList, MenuItem } from '@chakra-ui/react'
 import { HamburgerIcon } from "@chakra-ui/icons"
@@ -62,10 +62,8 @@ function Navbar() {
             )
             }
           </MenuList>
-          
         </Menu>
       </Box>
-
     </Box>
 
 

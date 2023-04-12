@@ -17,13 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
     background:url("https://udportfolio.herokuapp.com/static/media/bl-shape.49fa118167b7bac8397d.png")   , linear-gradient(220deg,#3ed4ee,#1171ef)fixed;
     width: 100%;
     height: 770px;
-    clip-path: polygon(0% 20%,
-                  0% 0%,
-                  100% 0%,
-                 100% 85%,
-                  0% 100%,
-                  0% 90%,
-                   0% 20%);
+    
 }
 .typewr{
   font-family: 'Poiret One', cursive;
@@ -65,6 +59,103 @@ section {
   background-color: #4dba87;
   cursor: pointer;
 }
+
+
+.waveWrapperInner {
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  overflow: hidden;
+  height: 5%;
+  bottom: 0px;
+  background:transparent;
+  
+}
+.waveWrapper {
+  overflow: hidden;
+ 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.waveWrapper {
+  z-index: -1;
+}
+
+.bgTop {
+  z-index: 12;
+  opacity: 0.25;
+}
+.bgMiddle {
+  z-index: 10;
+  opacity: 0.75;
+}
+.bgBottom {
+  z-index: 5;
+}
+
+.waveTop {
+  background-size: 50% 100px;
+}
+.wave {
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+.waveAnimation .waveMiddle {
+  -webkit-animation: move_wave 10s linear infinite;
+  animation: move_wave 10s linear infinite;
+  border-top-left-radius: 50%;
+}
+.waveMiddle {
+  background-size: 50% 120px;
+}
+
+.waveAnimation .waveBottom {
+  -webkit-animation: move_wave 15s linear infinite;
+  animation: move_wave 15s linear infinite;
+}
+.waveBottom {
+  background-size: 50% 100px;
+}
+@keyframes move_wave {
+  0% {
+    -webkit-transform: translateX(0) translateZ(0) scaleY(1);
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    -webkit-transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) translateZ(0) scaleY(1);
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+
+@-webkit-keyframes move_wave {
+  0% {
+    -webkit-transform: translateX(0) translateZ(0) scaleY(1);
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    -webkit-transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) translateZ(0) scaleY(1);
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+
 
 /* Header */
 nav {
@@ -197,7 +288,30 @@ footer ul li {
 }
 
 /* --------- Responsive Design --------- */
+@media (max-width: 1025px) {
+.waveWrapperInner {
+  position: absolute;
+  top: 480px;
+  width: 100%;
+  overflow: hidden;
+  height: 5%;
+  bottom: 0px;
+  background:transparent;
+ 
+}
+.waveWrapper {
+  overflow: hidden;
+  /* display: none; */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+}
 @media (max-width: 768px) {
+  .waveWrapper {
+    display: none;
+  }
   .flex {
     row-gap: 2rem;
     flex-direction: column;
@@ -220,7 +334,7 @@ footer ul li {
     display: none;
   }
   .header {
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 3rem 2rem 0rem 2rem;
   }
   section {
     padding: 1rem 2rem;
@@ -242,7 +356,7 @@ footer ul li {
     margin-left: 0;
   }
   .sammyakimg{
-    width: 280px;
+    width: 250px;
   }
 }
 @media only screen and (max-width: 426px){

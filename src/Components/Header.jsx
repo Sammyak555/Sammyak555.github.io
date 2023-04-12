@@ -1,6 +1,8 @@
 import { Button, Icon, Image } from "@chakra-ui/react";
 import React from "react";
 import '../Styles/global.css';
+import ShapeM from "../Images/b-shapemiddle.jpg.png";
+import ShapeU from "../Images/b-shapeup..png";
 import Typewriter from "typewriter-effect"
 import { RiFileUserLine } from 'react-icons/ri'
 import myimage from "../Styles/myimage.png"
@@ -35,7 +37,26 @@ export default function Header() {
                 </div>
                 <Image className="sammyakimg" style={{ borderRadius: "50%" }} src={myimage} alt="sammyak" />
             </div>
-            <div className="moddiv"></div>
+            <div className="waveWrapper waveAnimation">
+        <div className="waveWrapperInner bgTop">
+          <div
+            className="wave waveTop"
+            style={{ backgroundImage: `url(${ShapeU})` }}
+          ></div>
+        </div>
+        <div className="waveWrapperInner bgMiddle">
+          <div
+            className="wave waveMiddle"
+            style={{ backgroundImage: `url(${ShapeM})` }}
+          ></div>
+        </div>
+        <div className="waveWrapperInner bgBottom">
+          <div
+            className="wave waveBottom"
+            style={{ backgroundImage: `url(${ShapeM})` }}
+          ></div>
+        </div>
+      </div>
         </header>
     )
 }
