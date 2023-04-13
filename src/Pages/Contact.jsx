@@ -56,26 +56,6 @@ function Contact() {
           </div>
         </div>
       </div>
-      {/* <div className='contactdetails'>
-        <div className='tool'>
-
-          <FiPhone /> <div className='cdt'><span>+91-9503803512</span></div>
-        </div>
-        <div className='tool'>
-
-          <FiMail /><div className='cdt'><span>sammyak.deosale.1@gmail.com</span></div>
-        </div>
-
-        <div className='tool'>
-
-          <BsGithub /><div className='cdt'><a href="https://github.com/Sammyak555"><span>Sammyak555</span></a></div>
-        </div>
-        <div className='tool'>
-          <BsCursorFill /><div className='cdt'><a href="https://www.linkedin.com/in/sammyak-deosale-1b9abb229/"><span>Sammyak Deosale</span></a></div>
-        </div>
-        <br />
-        
-      </div> */}
     </div>
   )
 }
