@@ -49,7 +49,7 @@ function Contact() {
               <FormLabel marginTop={"14px"} marginLeft="10px">Email</FormLabel>
               <Input border={"none"} borderBottom={"1px solid rgb(72, 72, 72)"} background={"transparent"} placeholder='enter email' width={"95%"} />
               <FormLabel marginTop={"14px"} marginLeft="10px">Message</FormLabel>
-              <Input border={"none"} borderBottom={"1px solid rgb(72, 72, 72)"} background={"transparent"} height={"3.5rem"} placeholder='emter message' width={"95%"} />
+              <Input border={"none"} borderBottom={"1px solid rgb(72, 72, 72)"} background={"transparent"} height={"3.5rem"} placeholder='enter message' width={"95%"} />
             </FormControl>
             <br />
             <Button onClick={() => alert("thank you for visiting")} className='subbtn' background={"transparent"} color="rgb(72, 72, 72)" width="auto">Submit</Button>
