@@ -30,7 +30,7 @@ export default function Header() {
 
                     <h4 className="gray fontsty" style={{fontFamily:"" }}>I would love to practice and use my skills to help an organisation uplift by truly folllowing the phrase "Rise by lifting others".</h4>
                     <br />
-                    <a href={Sammyak_MERN_Resume1} download={true} style={{ textDecoration: "none" }} target={'_blank'}><Button _hover={{ bg: 'gray.700', cursor:'pointer' }} style={{ fontSize: "20px", width: "250px" }} variant='outline' justifyContent={"space-evenly"} color={"white"} onClick={onButtonClick}><Icon as={RiFileUserLine} w={6} h={6} />My Resume</Button>
+                    <a href={Sammyak_MERN_Resume1} download={true} style={{ textDecoration: "none" }}  target={'_blank'}><Button _hover={{ bg: 'gray.700', cursor:'pointer' }} style={{ fontSize: "20px", width: "250px",zIndex:'0' }} variant='outline' justifyContent={"space-evenly"} color={"white"} onClick={onButtonClick}><Icon as={RiFileUserLine} w={6} h={6} />My Resume</Button>
                     </a>
                     <div className="headicons"></div>
                     <br />

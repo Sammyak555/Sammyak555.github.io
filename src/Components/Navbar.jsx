@@ -30,7 +30,7 @@ function Navbar() {
       </Box>
       <Spacer />
       <Box className='navlink' >
-        <a className="navresume" target={'_blank'} href={Sammyak_MERN_Resume1} download={true}><Button variant='outline' _hover={{ bg: 'gray.700' }} justifyContent={"space-evenly"} color={"white"} onClick={onButtonClick}><Icon as={RiFileUserLine} />My Resume</Button>
+        <a className="navresume" target={'_blank'} href={Sammyak_MERN_Resume1}  download={true}><Button variant='outline' _hover={{ bg: 'gray.700' }} justifyContent={"space-evenly"} backgroundColor={'gray.600'} color={"white"} onClick={onButtonClick}><Icon as={RiFileUserLine} />My Resume</Button>
         </a>
         {links.map((link) => (
           <HashLink
