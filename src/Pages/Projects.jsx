@@ -15,7 +15,7 @@ export const Projects = () => {
   return (
     <div className="projectsbox" id="projects">
       <div className='fakebox'></div>
-      <h1 >ＰＲＯＪＥＣＴＳ</h1>
+      <h1 style={{color:"white"}}>ＰＲＯＪＥＣＴＳ</h1>
       <div className="projectsgridbox">
         <Card data-aos="fade-up"
           direction={{ base: 'column', sm: 'row' }}
@@ -23,6 +23,8 @@ export const Projects = () => {
           variant='outline'
           bgColor={'#336699'}
           padding='2'
+          
+         
         >
           <Image
             objectFit='cover'
@@ -75,6 +77,7 @@ export const Projects = () => {
           variant='outline'
           bgColor={'#336699'}
           padding='2'
+          zIndex={''}
         >
           <Image
             objectFit='cover'
@@ -123,6 +126,7 @@ export const Projects = () => {
           variant='outline'
           bgColor={'#336699'}
           padding='2'
+          zIndex={''}
         >
           <Image
             objectFit='cover'
@@ -174,6 +178,7 @@ export const Projects = () => {
           variant='outline'
           bgColor={'#336699'}
           padding='2'
+         
         >
           <Image
             objectFit='cover'

@@ -40,8 +40,15 @@
     margin-top: 40px;
    
     /* border: 1px solid red; */
-    
-   text-align: center;
+    background: linear-gradient(35deg,#11cdef,#1171ef);
+    /* clip-path: polygon(0% 20%,
+                    0% 0%,
+                    100% 0%,
+                   100% 90%,
+                    0% 100%,
+                    0% 90%,
+                     0% 20%) ; */
+    text-align: center;
    
 }
 .projectsgridbox{
@@ -174,12 +181,6 @@
 }
 
 
-
-
-
-
-
-
 @media only screen and (max-width: 1200px) {
   .projectsbox{
     width: 100%;
@@ -282,13 +283,6 @@
 }
 
 }
-
-
-
-
-
-
-
 
 
 
