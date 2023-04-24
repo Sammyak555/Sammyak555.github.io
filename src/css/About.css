@@ -36,6 +36,69 @@
     /* animation :aboute 2s linear infinite; */
    
 }
+.education>h1{
+    padding-bottom: 40px;
+    font-size: 40px;
+    color: rgb(38, 38, 38);
+    font-family:'Marck Script', cursive;
+    margin: auto;
+   
+   text-align: center;
+   
+}
+.edudetails{
+    display: flex;
+}
+.educards{
+    
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.edu-card{
+    /* border: 1px solid blue; */
+    padding: 18px;
+    border-radius: 8px;
+    background: linear-gradient(35deg,#11cdef,#1171ef);
+}
+
+.edu-card>div>img{
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.edu-card>div>div>h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.duration{
+    
+    width: 220px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 6px;
+    background-color: #11cdef;
+    color: white;
+}
+.grade{
+    
+    width: 110px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 6px;
+    background-color: #1171ef;
+    color: white;
+}
+.edu-card>div>div>h1{
+    font-size: 25px;
+    margin-top: 9px;
+    margin-left: 6px;
+    color: white;
+}
 .abtcontent{
     display: flex;
     margin: auto;
@@ -114,10 +177,108 @@
     .aboutebox{
         background-position: 70% 10px;
     }
+    .educards{
+        
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        justify-content: space-evenly;
+        
+    }
+    .edu-card{
+        /* border: 1px solid blue; */
+        padding: 18px;
+        margin-top: 10px;
+        border-radius: 8px;
+        width: 70%;
+        margin: auto;
+        background: linear-gradient(35deg,#11cdef,#1171ef);
+    }
+    .edudetails{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
  }
 
 
  @media only screen and (max-width: 600px) {
+    
+.education>h1{
+    padding-bottom: 40px;
+    font-size: 30px;
+    color: rgb(38, 38, 38);
+    font-family:'Marck Script', cursive;
+    margin: auto;
+   
+   text-align: center;
+   
+}
+.educards{
+    
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    justify-content: space-evenly;
+    
+}
+.edu-card{
+    /* border: 1px solid blue; */
+    padding: 18px;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 70%;
+    margin: auto;
+    background: linear-gradient(35deg,#11cdef,#1171ef);
+}
+.edudetails{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+
+.edu-card>div>img{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.edu-card>div>div>h3{
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.duration{
+    
+    width: 220px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 6px;
+    background-color: #11cdef;
+    color: white;
+    font-size: 14px;
+}
+.grade{
+    
+    width: 110px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-left: 6px;
+    background-color: #1171ef;
+    color: white;
+}
+.edu-card>div>div>h1{
+    font-size: 20px;
+    margin-top: 9px;
+    margin-left: 6px;
+    color: white;
+}
    .aboutebox{
     width: 100%;
     height: fit-content;
@@ -156,6 +317,9 @@
 
 
 @media only screen and (max-width: 426px) {
+    .education{
+        margin-top: 20px;
+    }
     .abtcontent{
        
         margin: auto;
@@ -187,6 +351,70 @@
     .abtcontent>div>img{
         width: 0px;
         visibility: hidden;
+    }
+
+    .educards{
+        
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        justify-content: space-evenly;
+        
+    }
+    .edu-card{
+        /* border: 1px solid blue; */
+        padding: 18px;
+        margin-top: 10px;
+        border-radius: 8px;
+        width: 90%;
+        margin: auto;
+        background: linear-gradient(35deg,#11cdef,#1171ef);
+    }
+    .edudetails{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    
+    .edu-card>div>img{
+        /* border: 1px solid red; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    .edu-card>div>div>h3{
+        color: white;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 6px;
+    }
+    .duration{
+        
+        width: 220px;
+        padding: 5px;
+        border-radius: 8px;
+        margin-left: 6px;
+        background-color: #11cdef;
+        color: white;
+        font-size: 14px;
+    }
+    .grade{
+        
+        width: 110px;
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 8px;
+        margin-left: 6px;
+        background-color: #1171ef;
+        color: white;
+    }
+    .edu-card>div>div>h1{
+        font-size: 20px;
+        margin-top: 9px;
+        margin-left: 6px;
+        color: white;
     }
     
     
