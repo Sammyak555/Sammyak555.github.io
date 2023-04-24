@@ -53,7 +53,7 @@ export const About = () => {
                 <br />
                 <div className='edudetails'>
                 <div className='duration'>
-                  <p>JUNE 2013 - JULLY 2017</p>
+                  <p>JUNE 2013 - JULY 2017</p>
                 </div>
                 <div className='grade'>
                   <p>DISTINCTION</p>
