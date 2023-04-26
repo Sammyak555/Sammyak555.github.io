@@ -37,7 +37,7 @@ function Contact() {
   }
 
   return (
-    <div className='fullcontactcont'>
+    <div className='fullcontactcont'  id="contact">
       <div className="contact" id="contact">
         <h1>ＣＯＮＴＡＣＴ</h1>
         <div className='contactbox'>

@@ -20,7 +20,7 @@ export default function Header() {
             <div className="header flex light-bg">
                 <div className="content">
                     <h1 className="white">Hi I am,</h1>
-                    <h1 className="white fontsty" style={{ fontSize: "41px", position: 'relative', fontFamily: 'Sacramento' }}><span style={{ color: 'orange' }}>Sammyak </span> Deosale <span className="typewr" ><Typewriter options={{
+                    <h1 className="white fontsty" id="user-detail-name" style={{ fontSize: "41px", position: 'relative', fontFamily: 'Sacramento' }}><span style={{ color: 'orange' }}>Sammyak </span> Deosale <span className="typewr" ><Typewriter options={{
                         autoStart: true,
                         loop: true,
                         delay: 50,
@@ -35,7 +35,7 @@ export default function Header() {
                     <div className="headicons"></div>
                     <br />
                 </div>
-                <Image className="sammyakimg" style={{ borderRadius: "50%" }} src={myimage} alt="sammyak" />
+                <Image className="sammyakimg" class="home-img" style={{ borderRadius: "50%" }} src={myimage} alt="sammyak" />
             </div>
             <div className="waveWrapper waveAnimation">
         <div className="waveWrapperInner bgTop">

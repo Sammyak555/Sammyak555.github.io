@@ -24,7 +24,7 @@ function Navbar() {
    
   }
   return (
-    <Box className="navbarbox">
+    <Box className="navbarbox" id="nav-menu">
       <Box  >
         <h1 className='logo navheadname' >{"< Sammyak />"}</h1>
       </Box>
