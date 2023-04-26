@@ -35,7 +35,7 @@ export default function Header() {
                     <div className="headicons"></div>
                     <br />
                 </div>
-                <Image className="sammyakimg" class="home-img" style={{ borderRadius: "50%" }} src={myimage} alt="sammyak" />
+                <Image className="sammyakimg"  style={{ borderRadius: "50%" }} src={myimage} alt="sammyak" />
             </div>
             <div className="waveWrapper waveAnimation">
         <div className="waveWrapperInner bgTop">
