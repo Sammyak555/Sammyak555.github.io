@@ -10,6 +10,8 @@ import {
   StyledNavLinks,
 } from "../styles/Navbar.styled";
 import downloadIcon from "../../assets/icons/download-icon.svg";
+import sammyak from "../fw19_1004-Sammyak-Deosale-Resume.pdf"
+
 import {
   Resume,
   ResumeLink,
@@ -41,6 +43,11 @@ const Navbar = () => {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
+  const onButtonClick = () => {
+    window.open('https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing')
+   
+  }
 
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
@@ -119,27 +126,15 @@ const Navbar = () => {
             Contact
           </StyledNavLinks>
         </NavList>
-        {/* <NavList>
-          <StyledNavLinks
-            to="playground"
-            smooth={true}
-            duration={0}
-            delay={0}
-            spy={true}
-            spyThrottle={0}
-            exact="true"
-            offset={-85.26}
-          >
-            Playground
-          </StyledNavLinks>
-        </NavList> */}
+    
         <NavList>
         <Resume>
             <ResumeLink
-              // href={resume}
-              icon={downloadIcon}
-              style={{border:"1px solid orange", padding:"8px"}}
-              download="resume-jericho-bantiquete"
+               href={sammyak}
+               icon={downloadIcon}
+               download="Sammyak-Deosale-Resume"
+               target={'_blank'}
+               onClick={onButtonClick}
             >
               Download Resume
             </ResumeLink>

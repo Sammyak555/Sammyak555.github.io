@@ -24,11 +24,15 @@ import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope } from "react-icons/fa";
+import sammyak from "../fw19_1004-Sammyak-Deosale-Resume.pdf"
 
 const Home = () => {
   let today = new Date(),
     hour = today.getHours();
-
+    const onButtonClick = () => {
+      window.open('https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing')
+     
+    }
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
@@ -63,9 +67,11 @@ const Home = () => {
           </StyledButton> */}
           <Resume>
             <ResumeLink
-              // href={resume}
-              icon={downloadIcon}
-              download="resume-jericho-bantiquete"
+               href={sammyak}
+               icon={downloadIcon}
+               download="Sammyak-Deosale-Resume"
+               target={'_blank'}
+               onClick={onButtonClick}
             >
               Download Resume
             </ResumeLink>
