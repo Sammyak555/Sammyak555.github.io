@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28a56321.css",
-    "main.js": "/static/js/main.8881d476.js",
+    "main.js": "/static/js/main.bbfe8965.js",
     "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
     "static/media/quote-background.jpg": "/static/media/quote-background.026b66371900f2cda770.jpg",
     "static/media/myimage.png": "/static/media/myimage.715db69b8617bc4d5ce5.png",
@@ -12,6 +12,7 @@
     "static/media/awwwards.png": "/static/media/awwwards.11485eeff403041094ad.png",
     "static/media/project-3-laptop.jpg": "/static/media/project-3-laptop.08203b1e145fd28d0f3b.jpg",
     "static/media/dribble.png": "/static/media/dribble.3893048f7f6437a8c463.png",
+    "static/media/fw19_1004-Sammyak-Deosale-Resume.pdf": "/static/media/fw19_1004-Sammyak-Deosale-Resume.bc485ce3eaecefb97b09.pdf",
     "static/media/random.png": "/static/media/random.48b4329daa2c098e41ab.png",
     "static/media/project-2-laptop.jpg": "/static/media/project-2-laptop.3c22db1389ac89e04b6d.jpg",
     "static/media/project-6-mobile.jpg": "/static/media/project-6-mobile.b81389cc9716080b4b79.jpg",
@@ -41,11 +42,11 @@
     "static/media/project-icon.svg": "/static/media/project-icon.812e73fe01c2e4e4773c6c7dd4b7e546.svg",
     "static/media/npm.svg": "/static/media/npm.764db555a82ab18ef3f80a5a0d1aadfc.svg",
     "main.28a56321.css.map": "/static/css/main.28a56321.css.map",
-    "main.8881d476.js.map": "/static/js/main.8881d476.js.map",
+    "main.bbfe8965.js.map": "/static/js/main.bbfe8965.js.map",
     "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28a56321.css",
-    "static/js/main.8881d476.js"
+    "static/js/main.bbfe8965.js"
   ]
 }
