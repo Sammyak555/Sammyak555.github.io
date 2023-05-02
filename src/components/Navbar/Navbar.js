@@ -136,9 +136,9 @@ const Navbar = () => {
         <Resume >
            <a>
            <ResumeLink
-            //  id="resume-button-1"
+             id="resume-link-1"
             className="nav-link resume"
-            id="resume-link-2"
+    
             style={{border:"1.5px solid orange", padding:"9px"}}
                href={sammyak}
                icon={downloadIcon}
