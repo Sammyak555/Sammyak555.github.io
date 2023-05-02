@@ -16,7 +16,7 @@ import downloadIcon from "../../assets/icons/download-icon.svg";
 
 const About = () => {
   return (
-    <StyledAbout id="about" class="about section">
+    <StyledAbout id="about" className="about section">
       <SectionHeading dark="true" mb="3rem">
         <SectionTitle dark="true" number="01">
           About Me
