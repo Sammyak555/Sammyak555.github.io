@@ -53,7 +53,7 @@ const Home = () => {
         </p>
         <StyledButtonsContainer>
           
-          <Resume id="resume-button-2">
+          <Resume >
             <ResumeLink
               id="resume-button-2"
                href={sammyak}

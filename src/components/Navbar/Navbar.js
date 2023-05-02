@@ -133,7 +133,7 @@ const Navbar = () => {
         </NavList>
     
         <NavList>
-        <Resume id="resume-button-1">
+        <Resume >
            <a>
            <ResumeLink
              id="resume-button-1"
