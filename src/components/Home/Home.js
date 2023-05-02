@@ -87,28 +87,27 @@ const Home = () => {
         </Greeting>
         <Socials>
           <Social
-            href="mailto:jerichobantiquete@gmail.com"
+            href="mailto:sammyak.deosale.1@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaEnvelope />
           </Social>
           <Social
-            href="https://github.com/monciego"
+            href="https://github.com/Sammyak555"
             target="_blank"
             rel="noopener noreferrer"
           >
             <GoMarkGithub />
           </Social>
           <Social
-            href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+            href="https://www.linkedin.com/in/sammyak-deosale-1b9abb229/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <GrLinkedinOption />
           </Social>
         </Socials>
-        <Quote>Don't wish for it! Work for it!</Quote>
       </StyledHome>
     </IconContext.Provider>
   );

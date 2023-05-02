@@ -130,6 +130,7 @@ const Navbar = () => {
         <NavList>
         <Resume>
             <ResumeLink
+            style={{border:"1.5px solid orange", padding:"9px"}}
                href={sammyak}
                icon={downloadIcon}
                download="Sammyak-Deosale-Resume"
@@ -143,7 +144,7 @@ const Navbar = () => {
         
       </NavMenuList>
       <StyledCTA
-        href="mailto:jerichobantiquete@gmail.com "
+        href="mailto:sammyak.deosale.1@gmail.com "
         target="_blank"
         rel="noreferrer"
       >

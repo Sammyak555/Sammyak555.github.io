@@ -11,8 +11,21 @@ import {
   MobileQuote,
   CloseText,
 } from "../styles/MobileMenu.styled";
+import sammyak from "../fw19_1004-Sammyak-Deosale-Resume.pdf"
+import {
+  Resume,
+  ResumeLink,
+  StyledAbout,
+} from "../styles/About.styled";
+import downloadIcon from "../../assets/icons/download-icon.svg";
 
 const MobileMenu = ({ isOpen, toggle }) => {
+
+  const onButtonClick = () => {
+    window.open('https://drive.google.com/file/d/122wyJSFMfP61yciEuM2q_JKrYpv2FNFf/view?usp=sharing')
+   
+  }
+
   return (
     <MobileMenuContainer isOpen={isOpen} toggle={toggle}>
       <Icon onClick={toggle}>
@@ -23,17 +36,33 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="home" onClick={toggle}>
           Home
         </MobileMenuLink>
-        <MobileMenuLink to="projects" onClick={toggle}>
-          Projects
-        </MobileMenuLink>
         <MobileMenuLink to="about" onClick={toggle}>
           About
         </MobileMenuLink>
-        <MobileMenuLink to="playground" onClick={toggle}>
-          Playground
+        <MobileMenuLink to="projects" onClick={toggle}>
+          Projects
+        </MobileMenuLink>
+        <MobileMenuLink to="skills" onClick={toggle}>
+          Skills
+        </MobileMenuLink>
+        <MobileMenuLink to="footer" onClick={toggle}>
+          Contact
+        </MobileMenuLink>
+        <MobileMenuLink>
+        <Resume>
+            <ResumeLink
+               href={sammyak}
+              //  icon={downloadIcon}
+               download="Sammyak-Deosale-Resume"
+               target={'_blank'}
+               onClick={onButtonClick}
+            >
+              Download Resume
+            </ResumeLink>
+          </Resume>
         </MobileMenuLink>
         <MobileButton
-          href="mailto:jerichobantiquete@gmail.com "
+          href="mailto:sammyak.deosale.1@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
