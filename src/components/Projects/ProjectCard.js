@@ -30,6 +30,8 @@ const ProjectCardComponent = ({
           <ProjectDetails>
             <ProjectTitle className="project-title">{title}</ProjectTitle>
             <br/>
+            <ProjectTitle className="project-description">This is a clone of respective website.</ProjectTitle>
+            <br/>
             <ProjectTitle className="project-tech-stack">Tech-Stack : {stack}</ProjectTitle>
             <ProjectCodeLink
             className="project-deployed-link"
