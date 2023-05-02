@@ -41,18 +41,19 @@ export const AboutImageContainer = styled.div`
     background: rgb(13, 14, 14, 0.199);
     z-index: 2;
   }
-
+  
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     width: 100%;
     height: 20rem;
     margin-bottom: 1.75rem;
-
     &::after {
       content: "";
       top: -0.5rem;
       left: -0.5rem;
     }
   }
+
+  
 `;
 
 export const AboutImage = styled.img`
@@ -62,6 +63,7 @@ export const AboutImage = styled.img`
   margin-top:-17px;
   position: relative;
   border-radius: 1px;
+  }
 `;
 
 export const AboutDetailsContainer = styled.div`

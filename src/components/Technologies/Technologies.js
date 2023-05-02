@@ -3,6 +3,8 @@ import {
   TechnologiesContainer,
   TechnologiesHeader,
   TechnologiesIcons,
+  TechnologiesWrapper,
+  Technologiesnames,
   TechnologyIcon,
 } from "../styles/Technologies.styled";
 import { iconsData } from "./icons";
@@ -15,14 +17,18 @@ const Technologies = () => {
       <TechnologiesIcons>
         {iconsData.map((iconData) => {
           return (
-            <TechnologyIcon
-            className="skills-card-img skills-card-name"
-              key={iconData.id}
-              src={iconData.icon}
-              alt={iconData.name}
-              title={iconData.name}
-              {...iconData}
+            <div className="skills-card" key={iconData.id}>
+              <TechnologiesWrapper>
+          <TechnologyIcon
+            className="skills-card-img"
+            src={iconData.icon}
+            alt={iconData.name}
+            title={iconData.name}
+            {...iconData}
             />
+          <Technologiesnames className="skills-card-name">{iconData.name}</Technologiesnames>
+            </TechnologiesWrapper>
+        </div>
           );
         })}
       </TechnologiesIcons>

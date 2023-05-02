@@ -18,10 +18,22 @@ export const TechnologiesIcons = styled.div`
   gap: 1.5rem;
   margin-top: 3rem;
 `;
+export const Technologiesnames = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size:14px;
+`;
+export const TechnologiesWrapper = styled.div`
+  display: grid;
+  justify-content:center;
+  align-items: center;
+`;
 
 export const TechnologyIcon = styled.img`
   height: 46px;
-
+  margin:auto;
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     height: 24px;
   }

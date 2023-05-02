@@ -44,22 +44,22 @@ export const iconsData = [
   {
     id: 6,
     icon: mongodb,
-    name: "mongodb",
+    name: "MongoDB",
   },
   {
     id: 7,
     icon: nodejs,
-    name: "nodejs",
+    name: "Node JS",
   },
   {
     id: 8,
     icon: express,
-    name: "express",
+    name: "Express",
   },
   {
     id: 9,
     icon: redux,
-    name: "redux",
+    name: "Redux",
   },
   {
     id: 10,
@@ -79,16 +79,16 @@ export const iconsData = [
   {
     id: 13,
     icon: typescript,
-    name: "typescript",
+    name: "TypeScript",
   },
   {
     id: 14,
     icon: postman,
-    name: "postman",
+    name: "Postman",
   },
   {
     id: 15,
     icon: vscode,
-    name: "Visual Studio Code",
+    name: "VS Code",
   },
 ];
