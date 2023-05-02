@@ -55,7 +55,7 @@ const Home = () => {
           
           <Resume >
             <ResumeLink
-              id="resume-button-2"
+              
                href={sammyak}
                icon={downloadIcon}
                download="Sammyak-Deosale-Resume"
