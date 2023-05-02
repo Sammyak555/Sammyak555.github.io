@@ -6,9 +6,6 @@ import {
   MobileMenuList,
   MobileMenuLink,
   MobileButton,
-  MobileSocials,
-  MobileSocial,
-  MobileQuote,
   CloseText,
 } from "../styles/MobileMenu.styled";
 import sammyak from "../fw19_1004-Sammyak-Deosale-Resume.pdf"

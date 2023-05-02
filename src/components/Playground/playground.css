@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Orbitron&display=swap');
+
+
+
+
+.statistics{
+  background-color: white;
+  padding-top: 50px;
+
+}
+.stateheading{
+  font-size: 40px;
+  width: fit-content;
+  margin: auto;
+  font-family:'Marck Script', cursive;
+  color: rgb(40, 40, 40);
+ 
+}
+.statisticsbox{
+ 
+  height: auto;
+  
+  width: 100%;
+  justify-content: center;
+}
+.state1{
+  margin: auto;
+ margin-top: 50px;
+  width: 80%;
+  justify-content: center;
+  align-items: center ;
+}
+.state1a{
+
+  width: 45%;
+  margin: auto;
+}
+.state2{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.state2a>a>img{
+  height: 100%;
+  width: 226px;
+}
+
+.state2b>a>img{
+  height: 100%;
+  width: 520px;
+  
+}
+
+
+
+@media only screen and (max-width: 600px){
+  .statisticsbox{
+    display: flex;
+    flex-direction: column;
+  }
+
+.statisticsbox>div{
+  margin: auto;
+  margin-top: 50px;
+  width: 95%;
+  border: 20px solid transparent;
+}
+.statisticsbox>div:last-child{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.state2{
+  width: 90%;
+  margin-top: 5rem;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.state2>a:last-child{
+ margin-top: 2rem;
+}
+.stateheading{
+  font-size: 2rem;
+   
+}
+.state1a{
+
+  width: 100%;
+  margin: auto;
+}
+}
+@media only screen and (max-width: 426px){
+  .statistics{
+    background-color: white;
+    padding-top: 20px;
+    /* border: 1px solid red; */
+    margin-bottom: -140px;
+  }
+  .stateheading{
+    word-break: keep-all;
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    /* width: fit-content; */
+    margin: auto;
+    font-family:'Marck Script', cursive;
+    color: rgb(40, 40, 40);
+    animation :skills 2s linear infinite;
+  }
+  .statisticsbox{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .state1{
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center ;
+  }
+  .state1a{
+   
+    width: 100%;
+    margin: auto;
+  }
+  .state1a>a>img{
+    width: 100%;
+  }
+  .state2{
+    margin-top: -20px;
+    margin: auto;
+   
+    width: 80%;
+    justify-content: center;
+  }
+  .state2a>a>img{
+    height: 100%;
+  }
+  .state2b>a>img{
+    width: 100%;
+  }
+}
