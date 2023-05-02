@@ -133,9 +133,10 @@ const Navbar = () => {
         </NavList>
     
         <NavList>
-        <Resume>
-            <ResumeLink
-             
+        <Resume id="resume-button-1">
+           <a>
+           <ResumeLink
+             id="resume-button-1"
             className="nav-link resume"
             style={{border:"1.5px solid orange", padding:"9px"}}
                href={sammyak}
@@ -146,6 +147,7 @@ const Navbar = () => {
             >
               Download Resume
             </ResumeLink>
+           </a>
           </Resume>
         </NavList>
         

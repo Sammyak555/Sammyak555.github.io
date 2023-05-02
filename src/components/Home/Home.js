@@ -52,20 +52,8 @@ const Home = () => {
           <span className="responsive">e</span> websites.
         </p>
         <StyledButtonsContainer>
-          {/* <StyledButton
-            icon={projectIcon}
-            to="projects"
-            smooth={true}
-            duration={0}
-            delay={0}
-            spy={true}
-            spyThrottle={0}
-            exact="true"
-            offset={-50}
-          >
-            <span>Projects</span>
-          </StyledButton> */}
-          <Resume>
+          
+          <Resume id="resume-button-2">
             <ResumeLink
               id="resume-button-2"
                href={sammyak}
