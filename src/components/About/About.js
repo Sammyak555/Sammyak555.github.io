@@ -27,17 +27,17 @@ const About = () => {
           <AboutImage className="home-img" src={myImage} />
         </AboutImageContainer>
         <AboutDetailsContainer>
-          <StyledParagraph id="user-detail-intro">
+          <StyledParagraph >
             My name is Sammyak R. Deosale, currently pursuing full stack web development in Masai School, Bangalore. I
             am a passionate full stack developer based in Pune.
           </StyledParagraph>
           <StyledParagraph id="user-detail-intro">
             I love to design and create responsive websites or web apps from
             scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS, Node JS, Redux, Express JS,
+            my projects are HTML, CSS, JavaScript, React JS, Node JS, Redux, Express JS,
             MongoDB, GitHub and VS Code.
           </StyledParagraph>
-          <StyledParagraph id="user-detail-intro">
+          <StyledParagraph>
             I have eagerness to learn something new every day and I love to
             share my knowledge to my fellow students and developers. And I am
             looking forward to talk with you!
