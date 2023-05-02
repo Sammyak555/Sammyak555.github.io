@@ -53,7 +53,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
             <ResumeLink
                href={sammyak}
               //  icon={downloadIcon}
-              id="resume-link-1"
+              id="resume-button-1"
                download="Sammyak-Deosale-Resume"
                target={'_blank'}
                onClick={onButtonClick}

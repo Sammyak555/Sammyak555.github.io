@@ -67,7 +67,7 @@ const Home = () => {
           </StyledButton> */}
           <Resume>
             <ResumeLink
-              id="resume-link-2"
+              id="resume-button-2"
                href={sammyak}
                icon={downloadIcon}
                download="Sammyak-Deosale-Resume"
