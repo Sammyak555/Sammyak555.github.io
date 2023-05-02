@@ -25,13 +25,14 @@ const toTop = () => {
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <StyledFooter id="footer">
+    <StyledFooter id="contact">
       <FooterSmallTitleWrapper>
         <FooterSmallTitle>get in touch</FooterSmallTitle>
       </FooterSmallTitleWrapper>
 
       <FooterBigLinkContainer>
         <FooterBigLink
+          id="contact-email"
           href="mailto:sammyak.deosale.1@gmail.com"
           data-hover="Let's talk!"
         >
@@ -41,12 +42,13 @@ const Footer = () => {
       <FooterContacts>
         <FooterContact>
           <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:+919503803512">+919503803512</ContactLink>
+          <ContactLink id="contact-phone" href="tel:+919503803512">+919503803512</ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
           <FooterSocials>
             <ContactLink
+            id="contact-github"
               href="https://github.com/Sammyak555"
               target="_blank"
               rel="noopener noreferrer"
@@ -54,6 +56,7 @@ const Footer = () => {
               GitHub
             </ContactLink>
             <ContactLink
+            id="contact-linkedin"
               href="https://www.linkedin.com/in/sammyak-deosale-1b9abb229/"
               target="_blank"
               rel="noopener noreferrer"

@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-        <Name>Sammyak Deosale</Name>
+        <Name id="user-detail-name">Sammyak Deosale</Name>
         <Title>Full Stack Developer</Title>
         <p>
           I <span className="change-text"></span>{" "}
@@ -67,6 +67,7 @@ const Home = () => {
           </StyledButton> */}
           <Resume>
             <ResumeLink
+              id="resume-link-2"
                href={sammyak}
                icon={downloadIcon}
                download="Sammyak-Deosale-Resume"
@@ -87,6 +88,7 @@ const Home = () => {
         </Greeting>
         <Socials>
           <Social
+          id="contact-email"
             href="mailto:sammyak.deosale.1@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -94,6 +96,7 @@ const Home = () => {
             <FaEnvelope />
           </Social>
           <Social
+           id="contact-github"
             href="https://github.com/Sammyak555"
             target="_blank"
             rel="noopener noreferrer"
@@ -101,6 +104,7 @@ const Home = () => {
             <GoMarkGithub />
           </Social>
           <Social
+          id="contact-linkedin"
             href="https://www.linkedin.com/in/sammyak-deosale-1b9abb229/"
             target="_blank"
             rel="noopener noreferrer"

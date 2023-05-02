@@ -50,13 +50,14 @@ const Navbar = () => {
   }
 
   return (
-    <StyledNavbar className={stickyNav ? "sticky" : ""}>
+    <StyledNavbar className={stickyNav ? "sticky" : ""} id="nav-menu">
       <div>
         <NavLogo to="/" onClick={toTop} src={logo} alt="logo" />
       </div>
       <NavMenuList>
         <NavList>
           <StyledNavLinks
+          className="nav-link home"
             to="home"
             smooth={true}
             duration={0}
@@ -73,6 +74,7 @@ const Navbar = () => {
         <NavList>
           <StyledNavLinks
             to="about"
+            className="nav-link about"
             smooth={true}
             duration={0}
             delay={0}
@@ -87,6 +89,7 @@ const Navbar = () => {
         <NavList>
           <StyledNavLinks
             to="projects"
+            className="nav-link projects"
             smooth={true}
             duration={0}
             delay={0}
@@ -100,6 +103,7 @@ const Navbar = () => {
         </NavList>
         <NavList>
           <StyledNavLinks
+           className="nav-link skills"
             to="skills"
             smooth={true}
             duration={0}
@@ -114,7 +118,8 @@ const Navbar = () => {
         </NavList>
         <NavList>
           <StyledNavLinks
-            to="footer"
+            to="contact"
+            className="nav-link contact"
             smooth={true}
             duration={0}
             delay={0}
@@ -130,6 +135,8 @@ const Navbar = () => {
         <NavList>
         <Resume>
             <ResumeLink
+             id="resume-link-1"
+            className="nav-link resume"
             style={{border:"1.5px solid orange", padding:"9px"}}
                href={sammyak}
                icon={downloadIcon}

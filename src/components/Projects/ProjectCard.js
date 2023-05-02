@@ -24,22 +24,24 @@ const ProjectCardComponent = ({
   return (
     <>
       <IconContext.Provider value={{ size: "1rem" }}>
-        <ProjectCard>
+        <ProjectCard className="project-card">
           <ProjectImage src={image} alt={title} />
           <ProjectTransitionImage src={transitionImage} alt={title} />
           <ProjectDetails>
-            <ProjectTitle>{title}</ProjectTitle>
+            <ProjectTitle className="project-title">{title}</ProjectTitle>
             <br/>
-            <ProjectTitle>Tech-Stack : {stack}</ProjectTitle>
+            <ProjectTitle className="project-tech-stack">Tech-Stack : {stack}</ProjectTitle>
             <ProjectCodeLink
+            className="project-deployed-link"
               href={codeLink}
               target="_blank"
               rel="noopener noreferrer"
             >
               <GoMarkGithub />
-              <LinkName>Github Code</LinkName>
+              <LinkName >Github Code</LinkName>
             </ProjectCodeLink>
             <ProjectLiveLink
+            className="project-github-link"
               href={liveLink}
               target="_blank"
               rel="noopener noreferrer"

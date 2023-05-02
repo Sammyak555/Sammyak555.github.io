@@ -45,7 +45,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="skills" onClick={toggle}>
           Skills
         </MobileMenuLink>
-        <MobileMenuLink to="footer" onClick={toggle}>
+        <MobileMenuLink to="contact" onClick={toggle}>
           Contact
         </MobileMenuLink>
         <MobileMenuLink>
@@ -53,6 +53,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
             <ResumeLink
                href={sammyak}
               //  icon={downloadIcon}
+              id="resume-link-1"
                download="Sammyak-Deosale-Resume"
                target={'_blank'}
                onClick={onButtonClick}

@@ -16,7 +16,7 @@ import downloadIcon from "../../assets/icons/download-icon.svg";
 
 const About = () => {
   return (
-    <StyledAbout id="about">
+    <StyledAbout id="about" class="about section">
       <SectionHeading dark="true" mb="3rem">
         <SectionTitle dark="true" number="01">
           About Me
@@ -24,20 +24,20 @@ const About = () => {
       </SectionHeading>
       <AboutContent>
         <AboutImageContainer>
-          <AboutImage src={myImage} />
+          <AboutImage className="home-img" src={myImage} />
         </AboutImageContainer>
         <AboutDetailsContainer>
-          <StyledParagraph>
+          <StyledParagraph id="user-detail-intro">
             My name is Sammyak R. Deosale, currently pursuing full stack web development in Masai School, Bangalore. I
             am a passionate full stack developer based in Pune.
           </StyledParagraph>
-          <StyledParagraph>
+          <StyledParagraph id="user-detail-intro">
             I love to design and create responsive websites or web apps from
             scratch. The technologies, tools and languages I am using to build
             my projects are HTML, CSS, JavaScript, REACT JS, Node JS, Redux, Express JS,
             MongoDB, GitHub and VS Code.
           </StyledParagraph>
-          <StyledParagraph>
+          <StyledParagraph id="user-detail-intro">
             I have eagerness to learn something new every day and I love to
             share my knowledge to my fellow students and developers. And I am
             looking forward to talk with you!

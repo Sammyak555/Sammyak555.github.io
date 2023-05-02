@@ -11,6 +11,7 @@ import {
 
 export const projectData = [
   {
+    
     id: 1,
     image: project1Laptop,
     transitionImage: project1Mobile,
