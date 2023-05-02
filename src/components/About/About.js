@@ -4,15 +4,11 @@ import {
   AboutDetailsContainer,
   AboutImage,
   AboutImageContainer,
-  Resume,
-  ResumeLink,
   StyledAbout,
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import myImage from "../../assets/myimage.png";
-import downloadIcon from "../../assets/icons/download-icon.svg";
-// import resume from "../../assets/resume.pdf";
 
 const About = () => {
   return (
@@ -42,15 +38,6 @@ const About = () => {
             share my knowledge to my fellow students and developers. And I am
             looking forward to talk with you!
           </StyledParagraph>
-          <Resume>
-            <ResumeLink
-              // href={resume}
-              icon={downloadIcon}
-              download="resume-jericho-bantiquete"
-            >
-              Download Resume
-            </ResumeLink>
-          </Resume>
         </AboutDetailsContainer>
       </AboutContent>
     </StyledAbout>
