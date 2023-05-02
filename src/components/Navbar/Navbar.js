@@ -135,7 +135,7 @@ const Navbar = () => {
         <NavList>
         <Resume>
             <ResumeLink
-             id="resume-button-1"
+             
             className="nav-link resume"
             style={{border:"1.5px solid orange", padding:"9px"}}
                href={sammyak}
