@@ -16,6 +16,7 @@ const Technologies = () => {
         {iconsData.map((iconData) => {
           return (
             <TechnologyIcon
+            className="skills-card-img skills-card-name"
               key={iconData.id}
               src={iconData.icon}
               alt={iconData.name}
